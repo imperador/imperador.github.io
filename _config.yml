@@ -11,10 +11,11 @@ url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 
 # Social
-github_username: eaplatanios  # put your github username
-# twitter_username: # put your twitter username
-linkedin_username: eplatanios  # put your linkedin username
-scholar_authorid: EFVk-mwAAAAJ  # put your google scholar author id
+scholar_authorid: EFVk-mwAAAAJ
+github_username: eaplatanios
+linkedin_username: eplatanios
+facebook_username: anthony.platanios
+# twitter_username:
 contact_note: Feel free to drop me a line via email.
 
 # Footer text
