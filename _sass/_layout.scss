@@ -364,7 +364,7 @@
     .title {
       font-size: 18px;
       font-weight: bolder;
-      margin-bottom: 5px;
+      margin-bottom: 0px;
     }
 
     .author {
@@ -413,6 +413,7 @@
     }
 
     .hidden.open {
+      margin-top: 10px;
       max-height: 100em;
       -webkit-transition: 0.15s ease;
       -moz-transition: 0.15s ease;
@@ -455,6 +456,11 @@
 .star {
   color: $theme-color;
   font-style: normal;
+}
+
+.periodical {
+  line-height: 1.2em;
+  margin-bottom: 5px;
 }
 
 .publication-links {
@@ -634,9 +640,9 @@
 }
 
 /*****************************************************************************
- * Vitae
+ * CV
  *****************************************************************************/
-.vitae {
+.cv {
   h3 {
     color: $theme-color;
     text-align: center;

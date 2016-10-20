@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <b>Anthony</b> Platanios
-description: <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> • <a href="http://www.cs.cmu.edu/" target="_blank">School Of Computer Science</a> • <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>
+description: <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> • <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a> • <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>
 address: 8021 Gates Hillman Center, 5000 Forbes Ave, Pittsburgh, PA 15213
 
 profile:

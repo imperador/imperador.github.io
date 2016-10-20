@@ -1,17 +1,17 @@
 ---
 ---
 
-@inproceedings{Platanios:2014ti,
+@inproceedings{Platanios:2016ti,
   author        = {Platanios, Emmanouil A and Dubey, Avinava and Mitchell, Tom M},
   title         = {{Estimating Accuracy from Unlabeled Data: A Bayesian Approach}},
   booktitle     = {International Conference in Machine Learning},
   abbr          = {ICML},
   year          = {2016},
   pages         = {1416-1425},
-  pdf           = {platanios_2014ti/platanios_2014ti.pdf},
-  supp          = {platanios_2014ti/platanios_2014ti_supp.pdf},
-  poster        = {platanios_2014ti/platanios_2014ti_poster.pdf},
-  slides        = {platanios_2014ti/platanios_2014ti_slides.pdf},
+  pdf           = {platanios_2016ti/platanios_2016ti.pdf},
+  supp          = {platanios_2016ti/platanios_2016ti_supp.pdf},
+  poster        = {platanios_2016ti/platanios_2016ti_poster.pdf},
+  slides        = {platanios_2016ti/platanios_2016ti_slides.pdf},
   abstract      = {{We consider the question of how unlabeled data can be used to estimate the true accuracy of learned classifiers, and the related question of how outputs from several classifiers performing the same task can be combined based on their estimated accuracies. To answer these questions, we first present a simple graphical model that performs well in practice. We then provide two nonparametric extensions to it that improve its performance. Experiments on two real-world data sets produce accuracy estimates within a few percent of the true accuracy, using solely unlabeled data. Our models also outperform existing state-of-the-art solutions in both estimating accuracies, and combining multiple classifier outputs.}}
 }
 
@@ -22,7 +22,8 @@
   abbr          = {AAAI},
   year          = {2015},
   pages         = {1--9},
-  pdf           = {mitchell_2015wo/mitchell_2015wo.pdf}
+  pdf           = {mitchell_2015wo/mitchell_2015wo.pdf},
+  abstract      = {Whereas people learn many different types of knowledge from diverse experiences over many years, most current machine learning systems acquire just a single function or data model from just a single data set. We propose a neverending learning paradigm for machine learning, to better reflect the more ambitious and encompassing type of learning performed by humans. As a case study, we describe the Never-Ending Language Learner (NELL), which achieves some of the desired properties of a never-ending learner, and we discuss lessons learned. NELL has been learning to read the web 24 hours/day since January 2010, and so far has acquired a knowledge base with over 80 million confidenceweighted beliefs (e.g., servedWith(tea, biscuits)). NELL has also learned millions of features and parameters that enable it to read these beliefs from the web. Additionally, it has learned to reason over these beliefs to infer new beliefs, and is able to extend its ontology by synthesizing new relational predicates. NELL can be tracked online at http://rtw.ml.cmu.edu, and followed on Twitter at @CMUNELL.}
 }
 
 @thesis{Platanios:2015ui,
@@ -31,7 +32,10 @@
   booktitle     = {Master's Thesis at Carnegie Mellon University},
   abbr          = {CMU},
   year          = {2015},
-  pages         = {1--28}
+  pages         = {1--28},
+  pdf           = {platanios_2015ui/platanios_2015ui.pdf}, 
+  poster        = {platanios_2015ui/platanios_2015ui_poster.pdf}, 
+  abstract      = {We consider the question of how unlabeled data can be used to estimate the true accuracy of learned classiﬁers. This is an important question for any autonomous learning system that must estimate its accuracy without supervision, and also when classiﬁers trained from one data distribution must be applied to a new distribution (e.g., document classiﬁers trained on one text corpus are to be applied to a second corpus). We ﬁrst show how to estimate error rates exactly from unlabeled data when given a collection of competing classiﬁers that make independent errors, based on the agreement rates between subsets of these classiﬁers. We further show that even when the competing classiﬁers do not make independent errors, both their accuracies and error dependencies can be estimated by making certain relaxed assumptions. We then present an alternative approach based on graphical models that also allows us to combine the outputs of the classiﬁers into a single output label. A simple graphical model is introduced that performs well in practice. Then, two nonparametric extensions to it are presented, that signiﬁcantly improve its performance. Experiments on two real-world data sets produce accuracy estimates within a few percent of the true accuracy, using solely unlabeled data. We also obtain results demonstrating our graphical model approaches beating alternative methods for combining the classiﬁers’ outputs. These results are of practical signiﬁcance in situations where labeled data is scarce and shed light on the more general question of how the consistency among multiple functions is related to their true accuracies.}
 }
 
 @inproceedings{Platanios:2014ti,
@@ -40,7 +44,11 @@
   booktitle     = {Conference on Uncertainty in Artificial Intelligence},
   abbr          = {UAI},
   year          = {2014},
-  pages         = {1--10}
+  pages         = {1--10},
+  pdf           = {platanios_2014ti/platanios_2014ti.pdf},
+  poster        = {platanios_2014ti/platanios_2014ti_poster.pdf},
+  addendum      = {platanios_2014ti/platanios_2014ti_addendum.pdf},
+  abstract      = {We consider the question of how unlabeled data can be used to estimate the true accuracy of learned classifiers. This is an important question for any autonomous learning system that must estimate its accuracy without supervision, and also when classifiers trained from one data distribution must be applied to a new distribution (e.g., document classifiers trained on one text corpus are to be applied to a second corpus). We first show how to estimate error rates exactly from unlabeled data when given a collection of competing classifiers that make independent errors, based on the agreement rates between subsets of these classifiers. We further show that even when the competing classifiers do not make independent errors, both their accuracies and error dependencies can be estimated by making certain relaxed assumptions. Experiments on two data real-world data sets produce estimates within a few percent of the true accuracy, using solely unlabeled data. These results are of practical significance in situations where labeled data is scarce and shed light on the more general question of how the consistency among multiple functions is related to their true accuracies.}
 }
 
 @article{Platanios:2014gp,
@@ -52,10 +60,12 @@
   volume        = {36},
   number        = {5},
   pages         = {888--900},
-  month         = may
+  month         = may, 
+  pdf           = {platanios_2014gp/platanios_2014gp.pdf}, 
+  abstract      = {Generalized autoregressive conditional heteroscedasticity (GARCH) models have long been considered as one of the most successful families of approaches for volatility modeling in ﬁnancial return series. In this paper, we propose an alternative approach based on methodologies widely used in the ﬁeld of statistical machine learning. Speciﬁcally, we propose a novel nonparametric Bayesian mixture of Gaussian process regression models, each component of which models the noise variance process that contaminates the observed data as a separate latent Gaussian process driven by the observed data. This way, we essentially obtain a Gaussian process-mixture conditional heteroscedasticity (GPMCH) model for volatility modeling in ﬁnancial return series. We impose a nonparametric prior with power-law nature over the distribution of the model mixture components, namely the Pitman-Yor process prior, to allow for better capturing modeled data distributions with heavy tails and skewness. Finally, we provide a copula-based approach for obtaining a predictive posterior for the covariances over the asset returns modeled by means of a postulated GPMCH model. We evaluate the efﬁcacy of our approach in a number of benchmark scenarios, and compare its performance to state-of-the-art methodologies.}
 }
 
-@inproceedings{Platanios:2012uha,
+@inproceedings{Platanios:2012uh,
   author        = {Platanios, Emmanouil A and Chatzis, Sotirios P},
   title         = {{Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes for Volatility Modeling}},
   booktitle     = {Neural Information Processing Systems Workshop on Modern Nonparametric Methods in Machine Learning},
@@ -63,5 +73,8 @@
   year          = {2012},
   organization  = {Department of Electrical and Electronic Engineering, Imperial College London, London, United Kingdom; Department of Electrical and Computer Engineering, and Informatics, Cyprus University of Technology, Cyprus},
   address       = {Lake Tahoe, NV, United States of America},
-  month         = dec
+  month         = dec,
+  pdf           = {platanios_2012uh/platanios_2012uh.pdf}, 
+  poster        = {platanios_2012uh/platanios_2012uh_poster.pdf}, 
+  abstract      = {In this work, we present a nonparametric Bayesian method for multivariate volatility modeling. Our approach is based on postulation of a novel mixture of multioutput heteroscedastic Gaussian processes to model the covariance matrices of multiple assets. Speciﬁcally, we use the Pitman-Yor process prior as the non- parametric prior imposed over the components of our model, which are taken as multioutput heteroscedastic Gaussian processes obtained by introducing appropriate convolution kernels that combine simple heteroscedastic Gaussian processes under a multioutput scheme. We exhibit the efﬁcacy of our approach in a volatility prediction task.}
 }

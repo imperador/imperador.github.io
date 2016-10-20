@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /vitae/
-title: vitae
+permalink: /cv/
+title: cv
 ---
 
-<div class="vitae">
-{% for entry in site.data.vitae %}
+<div class="cv">
+{% for entry in site.data.cv %}
   <h3>{{ entry.title }}</h3>
   <div>
 	{% if entry.type == "list" %}

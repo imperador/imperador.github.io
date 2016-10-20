@@ -79,6 +79,9 @@
   {% if entry.supp %}
     <a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supplementary</a>
   {% endif %}
+  {% if entry.addendum %}
+    <a href="{{ entry.addendum | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Addendum</a>
+  {% endif %}
   {% if entry.poster %}
     <a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>
   {% endif %}
