@@ -1,8 +1,71 @@
-Adams:
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+Betteridge:
+  url: http://www.cs.cmu.edu/~jbetter/
 
-Podolsky:
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+Blum:
+  url: http://www.cs.cmu.edu/~avrim/
 
-Rosen:
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+Carlson:
+  url: http://www.cs.cmu.edu/~acarlson/
+
+Chatzis:
+  url: https://www.cut.ac.cy/eecei/staff/sotirios.chatzis/
+
+Chen:
+  url: http://www.cs.cmu.edu/~xinleic/
+
+Cohen:
+  url: http://www.cs.cmu.edu/~wcohen/
+
+Dalvi:
+  url: http://allenai.org/team/bhavanad/
+
+Dubey:
+  url: https://sites.google.com/site/kumaravinavadubey/
+
+Gardner:
+  url: http://www.cs.cmu.edu/~mg1/
+
+Greaves:
+  url: http://www.malcolmgreaves.io/
+
+Gupta:
+  url: http://www.cs.cmu.edu/~abhinavg/
+
+Hruschka Jr:
+  url: http://www2.dc.ufscar.br/~estevam/
+
+Krishnamurthy:
+  url: http://allenai.org/team/jayantk/
+
+Lao:
+  url: http://www.cs.cmu.edu/~nlao/
+
+Mazaitis:
+  url: http://www.cs.cmu.edu/~krivard/
+
+Mitchell:
+  url: http://www.cs.cmu.edu/~tom/
+
+Nakashole:
+  url: http://nakashole.com/
+
+Pratim Talukdar:
+  url: http://talukdar.net/
+
+Ritter:
+  url: http://aritter.github.io/
+
+Samadi:
+  url: http://www.mehdisamadi.com/
+
+Settles:
+  url: http://burrsettles.com/
+
+Wang:
+  url: http://www.cs.cmu.edu/~rcwang/
+
+Welling:
+  url: http://staff.psc.edu/welling/
+
+Wijaya:
+  url: http://www.cs.cmu.edu/~dwijaya/

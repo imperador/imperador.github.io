@@ -2,16 +2,28 @@
 ---
 
 {% if entry.abbr %}
-  <abbr>[{{entry.abbr}}]</abbr>
+  {% if site.data.venues[entry.abbr] %}
+    <abbr><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+  {% else %}
+    <abbr>{{entry.abbr}}</abbr>
+  {% endif %}
 {% endif %}
 
 <div id="{{entry.key}}">
-  {% if entry.type == "thesis" %}
-    {{reference}}
-  {% else %}
-    <span class="title">{{entry.title}}.</span>
-    <span class="author">
-      {% for author in entry.author_array %}
+  <span class="title">{{entry.title}}.</span>
+  <span class="author">
+    {% for author in entry.author_array %}
+      {% if forloop.length == 1 %}
+        {% if author.last == site.scholar.last_name %}
+          <em>{{author.last}}, {{author.first}}</em>
+        {% else %}
+          {% if site.data.coauthors[author.last] %}
+            <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+          {% else %}
+            {{author.last}}, {{author.first}}
+          {% endif %}
+        {% endif %}
+      {% else %}
         {% unless forloop.last %}
           {% if author.last == site.scholar.last_name %}
             <em>{{author.last}}, {{author.first}}</em>,
@@ -23,7 +35,7 @@
             {% endif %}
           {% endif %}
         {% else %}
-          {% if entry.author_array.length > 1 %} and {% endif %}
+          and
           {% if author.last == site.scholar.last_name %}
             <em>{{author.last}}, {{author.first}}</em>
           {% else %}
@@ -34,55 +46,47 @@
             {% endif %}
           {% endif %}
         {% endunless %}
-      {% endfor %}
-    </span>
-
-    {% if entry.type != "book" %}
-    <span class="periodical">
-    {% if entry.type == "article" %}
-      <em>{{entry.journal}}</em>
-    {% elsif entry.type == "inproceedings" %}
-      <em>In {{entry.booktitle}}</em>
-    {% endif %}
-    {% if entry.year %}
-      {{entry.year}}
-    {% endif %}
-    </span>
-    {% endif %}
-
-    {% if entry.type == "book" %}
-    <span class="publisher">
-      {% if entry.publisher %}
-        <em>{{entry.publisher}}</em>
       {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
-      {% endif %}
-    </span>
-    {% endif %}
+    {% endfor %}
+  </span>
+
+  <span class="periodical">
+  {% if entry.type == "article" %}
+    <em>{{entry.journal}}</em>
+  {% elsif entry.type == "inproceedings" %}
+    <em>In {{entry.booktitle}}</em>
+  {% elsif entry.type == "thesis" %}
+    <em>{{entry.booktitle}}</em>
   {% endif %}
+  {% if entry.year %}
+    {{entry.year}}
+  {% endif %}
+  </span>
 
-  <span class="links">
+  <span class="publication-links">
   {% if entry.abstract %}
-    [<a class="abstract">Abs</a>]
+    <a class="abstract">Abstract</a>
+  {% endif %}
+  {% if entry.arxiv %}
+    <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
   {% endif %}
   {% if entry.html %}
-    [<a href="{{ entry.html }}" target="_blank">HTML</a>]
+    <a href="{{ entry.html }}" target="_blank">HTML</a>
   {% endif %}
   {% if entry.pdf %}
-    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
+    <a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>
   {% endif %}
   {% if entry.supp %}
-    [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
+    <a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supplementary</a>
   {% endif %}
   {% if entry.poster %}
-    [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>]
+    <a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>
   {% endif %}
   {% if entry.slides %}
-    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
+    <a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>
   {% endif %}
   {% if entry.code %}
-    [<a href="{{ entry.code }}" target="_blank">Code</a>]
+    <a href="{{ entry.code }}" target="_blank">Code</a>
   {% endif %}
   </span>
 

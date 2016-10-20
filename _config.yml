@@ -22,7 +22,6 @@ contact_note: Feel free to drop me a line via email.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 # Blog
 # blog_name: al-folio
@@ -48,16 +47,16 @@ markdown: kramdown
 highlighter: pygments
 
 # Pagination
-# paginate: 15
-# permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
+paginate: 15
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
 # Includes
 include: ['_pages']
 
 # Gems
 gems:
-    # - jekyll-paginate
+    - jekyll-paginate
     - jekyll/scholar
     - jemoji
 

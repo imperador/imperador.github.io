@@ -1,23 +1,21 @@
 ---
 layout: about
 permalink: /
-title: your name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <b>Anthony</b> Platanios
+description: <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> • <a href="http://www.cs.cmu.edu/" target="_blank">School Of Computer Science</a> • <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>
+address: 8021 Gates Hillman Center, 5000 Forbes Ave, Pittsburgh, PA 15213
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true
-social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fourth year PhD student in the [Machine Learning Department](http://www.ml.cmu.edu/){:target="_blank"} of the [School of Computer Science](https://www.scs.cmu.edu/){:target="_blank"} at [Carnegie Mellon University](http://www.cmu.edu/){:target="_blank"}. My advisor is [Tom Mitchell](http://www.cs.cmu.edu/~tom/){:target="_blank"} and I work on the [Never Ending Language Learning (NELL) system](http://rtw.ml.cmu.edu/rtw/){:target="_blank"}.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/publications/) automatically.
+My current research revolves around the idea of self-reflection in the context of machine learning. More specifically, I am in the process of developing a framework that will allow learning systems that leverage several different learning mechanisms (i.e. algorithms) to "understand" how well each one of those mechanisms performs in different domains. It will also allow them to improve their learning rate by taking advantage of the "expertise" of each learning mechanism and by directing each such mechanism to learn more efficiently.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously I graduated with a MEng in [Electrical and Electronic Engineering](http://www.imperial.ac.uk/electrical-engineering){:target="_blank"} from [Imperial College London](https://www.imperial.ac.uk/){:target="_blank"}. For my Master's thesis I proposed a way to use topic modelling methods in order to perform human motion classification. 
+
+I am from Athens, Greece!

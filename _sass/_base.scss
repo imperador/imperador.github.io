@@ -12,6 +12,7 @@ dl, dd, ol, ul, figure {
 
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
+$base-font-size:                16px;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
@@ -30,14 +31,15 @@ $blue:          #2698BA;
 $green:         #11D68B;
 $lime_green:    #B7D12A;
 $purple:        #B509AC;
+$brown_orange:  #C68646;
 
 
-$grey-color-dark:   #333;   /* footer */
+$grey-color-dark:   #333;  /* footer */
 $grey-color-light:  #ddd;  /* navigation bar border */
 $text-color:        #666;
 
 /* Set theme color *************************/
-$theme-color:   $purple;
+$theme-color:   $brown_orange;
 
 
 /************************************************************/
@@ -219,7 +221,6 @@ div.equation {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 /**
  * Clearfix

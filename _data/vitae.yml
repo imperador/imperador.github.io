@@ -1,0 +1,56 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Emmanouil Antonios Platanios
+    - name: Date of Birth
+      value: 7th July 1991
+    - name: Nationality
+      value: Greek
+    - name: Languages
+      value: Greek (native), English (fluent), and German (intermediate)
+
+- title: Research Areas
+  type: list
+  contents:
+    - Theoretical artificial intelligence and machine learning (I am currently focusing on unsupervised and semi-supervised learning and more specifically, I am trying to introduce self-reflection in the context of machine learning)
+    - Applications of artificial intelligence and machine learning to natural language processing, robotics, computer vision and finance
+
+- title: Education
+  type: table
+  contents:
+    - title: Carnegie Mellon University – Ph.D. in Machine Learning
+      year: 2013-16
+      location: USA
+      description:
+        - 'Awarded the <b>CMU Presidential Fellowship</b>'
+        - '<u>GPA:</u> <b>4.18</b> (4.0 scale)'
+        - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
+        - 'I work on the <a href="http://rtw.ml.cmu.edu/" target="_blank"><b>Never Ending Language Learning (NELL)</b></a> project'
+        - title: 'I do research on topics related to <b>self-reflection in machine learning</b>:'
+          contents:
+          - 'I have developed a method for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, which I presented at the <b>Uncertainty in Artificial Intelligence (UAI)</b> conference in 2014'
+          - 'I am developing a self-reflection mechanism for machine learning systems and I am applying it in NELL'
+    - title: Carnegie Mellon University – M.S. in Machine Learning
+      year: 2013-15
+      location: USA
+      description:
+        - '<u>GPA:</u> <b>4.18</b> (4.0 scale)'
+        - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
+        - '<u>Thesis:</u> <b>Estimating Accuracy from Unlabeled Data</b>'
+        - 'Master’s degree requirements completed while working towards obtaining my Ph.D. in machine learning'
+    - title: Imperial College London – M.Eng. and ACGI in Electrical and Electronic Engineering
+      year: 2009-13
+      location: UK
+      description:
+        - 'Integrated Bachelor’s and Master’s degree'
+        - '<b>Dean’s List</b> for exceptional academic performance (all four years)'
+        - title: '<u>Grade:</u> 91.67% (ranked in top 1% of class) with <b>92.37%</b> on the final exams – <b>First-Class Honors Degree</b>'
+          contents:
+            - 'Equivalent to <b>4.0 GPA</b> in the USA academic system'
+        - title: '<u>Thesis Title:</u> "Human Motion Classification Using Statistical Machine Learning Methods"'
+          contents:
+            - 'Awarded the <b>Sir Bruce White prize in engineering</b> for the best final year project'
+        - title: '<u>Third Year Summer Research Project:</u> "Bayesian Machine Learning Methodologies for Modeling Time Series with High Volatility"'
+          contents:
+            - 'Volatility modeling and prediction in a multitude of applications with significance both for industry (e.g. finance) and academia'
