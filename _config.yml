@@ -1,16 +1,21 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# Site Settings
 # -----------------------------------------------------------------------------
 
 name: Anthony Platanios
 email: e.a.platanios@cs.cmu.edu
 description: > # this means to ignore newlines until "url:"
   My personal website.
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 
-# Social
+# -----------------------------------------------------------------------------
+# Social Integration
+# -----------------------------------------------------------------------------
 scholar_authorid: EFVk-mwAAAAJ
 github_username: eaplatanios
 linkedin_username: eplatanios
@@ -18,16 +23,33 @@ facebook_username: anthony.platanios
 # twitter_username:
 contact_note: Feel free to drop me a line via email.
 
-# Footer text
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-
+# -----------------------------------------------------------------------------
 # Blog
+# -----------------------------------------------------------------------------
 # blog_name: al-folio
-# blog_description: simple whitespace theme for academics
+# blog_description: a simple whitespace theme for academics
 
+# # Pagination
+# paginate: 4
+# permalink: /blog/:year/:title/
+# paginate_path: /blog/page:num/
+
+# text:
+#   pagination:
+#     newer: 'Newer'
+#     older: 'Older'
+
+# # Comments
+# disqus_shortname: al-folio # put your disqus shortname
+
+# # Optional features
+# show_social_icons:  false
+# enable_anchorjs:    false
+# enable_katex:       true
+
+# -----------------------------------------------------------------------------
 # Collections
+# -----------------------------------------------------------------------------
 collections:
   news:
     defaults:
@@ -38,18 +60,15 @@ collections:
     output: true
     permalink: /projects/:path/
 
+news_limit: 10
+
 # -----------------------------------------------------------------------------
-# Jekyll settings
+# Jekyll Settings
 # -----------------------------------------------------------------------------
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
-
-# Pagination
-paginate: 15
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+# highlighter: pygments
 
 # Includes
 include: ['_pages']
@@ -81,8 +100,8 @@ scholar:
   query: "@*"
 
 # -----------------------------------------------------------------------------
-# Other advanced settings (don't touch if you are not sure)
+# Other settings
 # -----------------------------------------------------------------------------
-fontawesome_version: "4.6.3"
 jquery_version: "1.12.4"
-katex_version: "0.6.0"
+katex_version: "0.7.1"
+anchorjs_version: "3.2.2"

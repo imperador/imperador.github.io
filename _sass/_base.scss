@@ -12,7 +12,7 @@ dl, dd, ol, ul, figure {
 
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
-$base-font-size:                16px;
+$base-font-size:                15px;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
@@ -118,6 +118,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: $vertical-spacing-unit / 2;
 }
 
+h2 {
+    margin-top: 3 * $vertical-spacing-unit / 4;
+}
+
 
 /**
  * Links
@@ -164,33 +168,6 @@ blockquote {
 
     > :last-child {
         margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border-radius: 3px;
-    background-color: $grey-color-light;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
     }
 }
 

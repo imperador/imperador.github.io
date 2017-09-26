@@ -29,8 +29,9 @@
         - 'I work on the <a href="http://rtw.ml.cmu.edu/" target="_blank"><b>Never Ending Language Learning (NELL)</b></a> project'
         - title: 'I do research on topics related to <b>self-reflection in machine learning</b>:'
           contents:
-          - 'I have developed a method for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, which I presented at the <b>Uncertainty in Artificial Intelligence (UAI)</b> conference in 2014'
+          - 'I have developed multiple methods for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, that I have presented at <b>Uncertainty in Artificial Intelligence (UAI)</b> in 2014, <b>International Conference in Machine Learning (ICML)</b> in 2016, and will present at <b>Neural Information Processing Systems (NIPS)</b> in 2017.'
           - 'I am developing a self-reflection mechanism for machine learning systems and I am applying it in NELL'
+          - 'I am working on a new framework for learning where agreement among multiple agents is the objective'
     - title: Carnegie Mellon University – M.S. in Machine Learning
       year: 2013-15
       location: USA
@@ -54,3 +55,192 @@
         - title: '<u>Third Year Summer Research Project:</u> "Bayesian Machine Learning Methodologies for Modeling Time Series with High Volatility"'
           contents:
             - 'Volatility modeling and prediction in a multitude of applications with significance both for industry (e.g. finance) and academia'
+    # - title: Geitonas School – International Baccalaureate
+    #   year: 2007-09
+    #   location: Greece
+    #   description:
+    #     - 'Received a <b>Certificate of Excellence</b> from the Greek Ministry of Education and Religious Affairs'
+
+- title: Work Experience
+  type: table
+  contents:
+    - title: 'Research Consultant at Cubist Systematic Strategies'
+      year: 2016-17
+      location: USA
+      description:
+        - 'Worked for the Advanced Methods Groups (AMG) in new machine learning-driven approaches for end-to-end algorithmic trading systems'
+        - 'Developed the main pipeline for trading algorithms research and for integrating these algorithms in a new production system'
+    - title: 'Research Intern at Microsoft Research'
+      year: 2015
+      location: USA
+      description:
+        - '<u>Manager:</u> <a href="http://erichorvitz.com" target="_blank"><b>Dr. Eric Horvitz</b></a>, Distinguished Scientist and Managing Director of Microsoft Research'
+        - '<u>Collaborators:</u> <a href="https://www.microsoft.com/en-us/research/people/hoifung/" target="_blank"><b>Dr. Hoifung Poon</b></a> and <a href="https://www.microsoft.com/en-us/research/people/akapoor/" target="_blank"><b>Dr. Ashish Kapoor</b></a>'
+        - '<u>First 3 months:</u> Developed a probabilistic logic-based approach for accuracy estimation using unlabeled data, as part of the Literome Project'
+        - '<u>Last 3 months:</u> Active learning amidst logical knowledge'
+    - title: 'Co-Founder, President and Chief Technology Officer (CTO) at Holic'
+      year: 2010-13
+      location: Greece
+      description:
+        - 'Development of an intelligent news reader application'
+        - 'Development of algorithms utilizing advanced nonparametric Bayesian models for clustering news articles and for user profiling'
+        - title: 'Received €400,000 funding from the following investors:'
+          contents:
+            - 'Dr. John Coustas, President & CEO of Danaos Corporation'
+            - 'Mr. Leon Yohai, Founder & CEO of ZuluTrade'
+    - title: 'Founder of Project Protasis – Forest Protection'
+      year: 2008-10
+      location: Greece
+      description:
+        - 'Development of a forest fire detection and prevention system'
+        - 'Development of software (involving use of neural networks for recognizing fire and smoke in photos) and related hardware'
+        - 'Prototype installed in <i>“Alsos Syggrou”</i>, a wooded area in Athens, funded by the Greek government'
+        - 'Patent approved in Greece (<b>Patent #: 20110100016</b>) and international patent pending approval'
+        - 'Interviewed by CNN, as well as several newspapers, magazines and other TV channels, regarding this project'
+        - 'Won the 2<sup>nd</sup> place in the <b>Microsoft Imagine Cup 2009</b> Greek Finals with this project'
+    - title: 'Web Designer and Software Developer at Curtainmakers S.A.'
+      year: 2010
+      location: Greece
+    - title: 'Software Developer at vWorker.com'
+      year: 2009-10
+      location: Greece
+    - title: 'Founder of Project Protasis – Home Automation'
+      year: 2007-09
+      location: Greece
+      description: 
+        - 'Development of a smart home automation system that controls all electrical appliances, heating systems and water systems and aims to reduce domestic energy consumption while making the lives of homeowners as comfortable as possible'
+        - 'Development of software, employing several machine learning algorithms'
+        - 'Funded by the Greek government and more specifically, by the Organization of School Buildings'
+        - 'Interviewed by NBC, as well as several newspapers, magazines and other TV channels, regarding this project'
+        - 'Won the <b>Microsoft Imagine Cup 2008</b> Greek Finals with this project and represented Greece in the Imagine Cup 2008 Worldwide Finals, in Paris, France, competing against teams from universities, at age of only 16 and having worked without a team or a mentor'
+    - title: 'Software Developer and I.T. Professional at Sigma Group Inc.'
+      year: 2007-08
+      location: USA
+    - title: 'Software Developer and I.T. Professional at Embiria S.A.'
+      year: 2006
+      location: USA
+
+- title: Honors and Awards
+  type: table
+  contents:
+    - year: 2017
+      items: 
+        - 'Won 2<sup>nd</sup> place in the CMU NeuroHackathon'
+    - year: 2016
+      items: 
+        - 'Awarded the <b>CMU Presidential Fellowship</b>'
+    - year: 2010-13
+      items:
+        - 'Awarded the <b>Sir Bruce White prize</b> in engineering for the <b>best M.Eng. thesis</b> at Imperial College London'
+        - '<b>Dean’s List</b> at Imperial College London, for exceptional academic performance (all four years)'
+    - year: 2010
+      items: 
+        - 'Nominated for the RAE (Royal Academy of Engineering) presentation skills award'
+        - '<b>"Roll of Honor"</b> of the Electrical and Electronic Engineering department of Imperial College London, for the best software design project in the year'
+    - year: 2009
+      items:
+        - 'Awarded a congratulatory diploma for my work on “Project Protasis – Home Automation” by <b>UNESCO</b>'
+        - 'Awarded an <b>honorary plaque</b> by the <b>Minister of Education and Religious Affairs</b> for honoring my country internationally'
+    - year: 2007-08
+      items:
+        - 'Awarded a <b>full scholarship</b> (of about €12,000) by “Geitonas School”, for honoring my school internationally'
+        - 'Had a <b>computer science laboratory named after me</b> in “Geitonas School”, for honoring my school internationally'
+        - 'Awarded €1,000 by the <b>President of the Greek Parliament</b>, for honoring my country internationally'
+        - 'Awarded an <b>honorary plaque</b> by the Mayor of my city, Vari, in Greece, for honoring my country internationally'
+        - 'Represented Greece in the <b>Microsoft Imagine Cup 2008 Worldwide Finals</b>, in Paris, France, with "Project Protasis - Home Automation"'
+        - 'Won the Microsoft Imagine Cup 2008 Greek Finals with "Project Protasis - Home Automation", competing against teams from universities, at age of only 16 and having worked without a team or a mentor (also won the 2<sup>nd</sup> place in the Microsoft Imagine Cup 2009 Greek Finals with "Project Protasis - Forest Protection")'
+    - year: 2007
+      items: 
+        - 'Received a <b>Certificate of Excellence</b> for the school year 2006-07 from the Greek Ministry of Education and Religious Affairs'
+        - 'Won the 3<sup>rd</sup> place (bronze medal) in the <b>Greek Mathematics Olympiad</b>, organized by the Hellenic Mathematical Society'
+    - year: 2003-07
+      items: 
+        - 'Won a total of <b>11 scholarships</b> and competitions in the fields of mathematics, sciences and computer science'
+
+# - title: Research Publications
+#   type: list
+#   contents:
+#     - '<b>Emmanouil A. Platanios</b>, Hoifung Poon, Eric Horvitz, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data: A Probabilistic Logic Approach", in the Neural Information Processing Systems (<b>NIPS</b>) conference proceedings, 2017'
+#     - '<b>Emmanouil A. Platanios</b>, Avinava Dubey, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data: A Bayesian Approach", in the International Conference in Machine Learning (<b>ICML</b>) conference proceedings, 2016'
+#     - '<b>Emmanouil A. Platanios</b>, "Estimating Accuracy from Unlabeled Data", <b>Master’s Thesis</b> at <b>Carnegie Mellon University</b>, 2015'
+#     - 'Tom M. Mitchell, William Cohen, Estevam Hruschka, Partha Talukdar, Justin Betteridge, Andrew Carlson, Bhavana Dalvi, Matt Gardner, Bryan Kisiel, Jayant Krishnamurthy, Ni Lao, Kathryn Mazaitis, Tahir Mohammad, Ndapa Nakashole, <b>Emmanouil A. Platanios</b>, Alan Ritter, Mehdi Samadi, Burr Settles, Richard Wang, Derry Wijaya, Abhinav Gupta, Xinlei Chen, Abulhair Saparov, Malcolm Greaves, and Max Welling, "Never-Ending Learning," in the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2015'
+#     - '<b>Emmanouil A. Platanios</b>, Avrim Blum, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data", in the Uncertainty in Artificial Intelligence (<b>UAI</b>) conference proceedings, 2014'
+#     - '<b>Emmanouil A. Platanios</b> and Sotirios P. Chatzis, "A Mixture Gaussian Process Conditional Heteroscedasticity Model with Power-Law Nature", in IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), vol. 36(5), pp. 888-900, 2014'
+#     - '<b>Emmanouil A. Platanios</b> and Sotirios P. Chatzis, "Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes for Volatility Modeling", in the "Modern Nonparametric Methods in Machine Learning" Neural Information Processing Systems (<b>NIPS</b>) workshop, 2012'
+
+- title: Major Talks
+  type: table
+  contents:
+    - title: '<i>Estimating Accuracy from Unlabeled Data</i>'
+      year: 2014-16
+      location: USA
+      description:
+        - 'International Conference in Machine Learning (<b>ICML</b>) conference'
+        - 'Uncertainty in Artificial Intelligence (<b>UAI</b>) conference'
+        - 'AI Lunch at Stanford University'
+        - 'Machine Learning Lunch at Carnegie Mellon University'
+    - title: '<i>Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes</i>'
+      year: 2012
+      location: USA
+      description:
+        - '"Nonparametric Methods in Machine Learning" Neural Information Processing Systems (<b>NIPS</b>) workshop'
+    - title: '<i>Project Protasis - Forest Protection</i>'
+      year: 2009
+      location: Greece
+      description:
+        - '<b>Microsoft Hellas Headquarters</b> in Athens, Greece'
+        - '<b>Ministry of Transportation</b> of the Greek government, in Athens (the Ministry later funded a pilot program)'
+    - title: '<i>Project Protasis - Home Automation</i>'
+      year: 2008-09
+      location: Greece, France
+      description:
+        - '<b>Microsoft Hellas Headquarters</b> in Athens, Greece'
+        - '<b>Louvre Museum</b> in Paris, France, as part of Imagine Cup'
+        - '"International Conference on Climate Change and Challenges for the Future Generations", organized by UNESCO, in Athens'
+        - '<b>Organization of School Buildings</b> of the Greek government, in Athens (later received funding for a pilot program from the Ministry of Education and Religious Affairs which administers this organization)'
+        - '"73<sup>rd</sup> Thessaloniki International Fair", in Thessaloniki'
+        - '"Generation Next 0-18" fair, in Athens'
+        - '"4<sup>th</sup> International Conference on Information and Communication Technologies in Bio and Earth Sciences" (HAICTA 2008), in Athens'
+
+- title: Teaching Experience
+  type: table
+  contents:
+    - title: '<b>Teaching Assistant</b> for the <b>10-701/15-781</b> Machine Learning graduate-level course at <b>Carnegie Mellon University</b>'
+      year: 2014, 16
+      location: USA
+      description:
+        - Did this for two semesters, one in 2014 and one in 2016
+        - Gave some lectures and some recitation lectures
+        - Wrote and graded homework assignments and exams
+
+- title: Development skills
+  type: list
+  contents:
+    - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript'
+    - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly'
+    - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE'
+    - '<u>Database Systems:</u> PostgreSQL, MS SQL Server, MySQL'
+
+- title: Other Interests
+  type: list
+  contents:
+    - '<u>Sports:</u> Tennis, Squash, Winter Skiing, Basketball, Sailing, and Windsurfing'
+    - '<u>Hobbies:</u> Travelling, Philosophy, and Politics (I also really want to learn to play the Guitar)'
+
+- title: Community Service
+  type: table
+  contents:
+    - year: 2009
+      items: 
+        - 'Volunteer service at the Lavrion refugee center, in Athens, Greece'
+    - year: 2008
+      items: 
+        - 'Reforestation of mountainside in Rafina, Greece'
+        - 'Volunteer service for the International Baccalaureate Organization (IBO) training workshop'
+        - '13<sup>th</sup> Annual Underwater and Beach Cleanup in Athens, Greece'
+        - 'Organizing member of "Christmas Bazaar" (fund raiser project)'
+        - 'Organizing member of "Love Feast" (feast to celebrate family values and raise funds for the victims of the then recent fires in Greece)'
+    - year: 2007
+      items:
+        - 'Reforestation in Mani, Greece'
+        - 'Volunteer service at the "AQUA GALA" event for children who are physically challenged, for the "Hellenic Society for Disabled Children"'

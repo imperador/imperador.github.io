@@ -4,6 +4,13 @@ permalink: /cv/
 title: cv
 ---
 
+<div class="cv-pdf">
+	<a href="/assets/pdf/vitae.pdf" target="_blank">
+	  <img height="60px" src="/assets/img/pdf_icon.png">
+	  <p>PDF</p>
+	</a>
+</div>
+
 <div class="cv">
 {% for entry in site.data.cv %}
   <h3>{{ entry.title }}</h3>
@@ -34,10 +41,29 @@ title: cv
 		    <span class="year">{{ content.year }}</span>
 		  {% endif %}
 		  	<div>
-			  	<span class="title">{{content.title}}</span>
-			  	{% if content.description %}
-				  	<ul class="items">
-            {% for item in content.description %}
+		  		{% if content.title %}
+				  	<span class="title">{{content.title}}</span>
+				  	{% if content.description %}
+					  	<ul class="items">
+	            {% for item in content.description %}
+	              <li>
+	              	{% if item.contents %}
+	              		<span class="item-title">{{ item.title }}</span>
+	              		<ul class="subitems">
+				            {% for subitem in item.contents %}
+				              <li><span class="subitem">{{ subitem }}</span></li>
+				            {% endfor %}
+				            </ul>
+	              	{% else %}
+	              		<span class="item">{{ item }}</span>
+	              	{% endif %}
+	              </li>
+	            {% endfor %}
+					  	</ul>
+				  	{% endif %}
+				  {% else %}
+				    <ul class="items">
+            {% for item in content.items %}
               <li>
               	{% if item.contents %}
               		<span class="item-title">{{ item.title }}</span>
@@ -52,7 +78,7 @@ title: cv
               </li>
             {% endfor %}
 				  	</ul>
-			  	{% endif %}
+				  {% endif %}
 			  </div>
 		  </li>
 		{% endfor %}
