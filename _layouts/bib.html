@@ -71,9 +71,6 @@
   {% if entry.abstract %}
     <a class="abstract">Abstract</a>
   {% endif %}
-  {% if entry.arxiv %}
-    <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
-  {% endif %}
   {% if entry.html %}
     <a href="{{ entry.html }}" target="_blank">HTML</a>
   {% endif %}
@@ -94,6 +91,9 @@
   {% endif %}
   {% if entry.code %}
     <a href="{{ entry.code }}" target="_blank">Code</a>
+  {% endif %}
+  {% if entry.arxiv %}
+    <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
   {% endif %}
   </span>
 
