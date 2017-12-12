@@ -13,8 +13,8 @@
 - title: Research Areas
   type: list
   contents:
-    - Theoretical artificial intelligence and machine learning (I am currently focusing on unsupervised and semi-supervised learning and more specifically, I am trying to introduce self-reflection in the context of machine learning)
-    - Applications of artificial intelligence and machine learning to natural language processing, robotics, computer vision and finance
+    - Theoretical artificial intelligence (AI) and machine learning (ML) (I am currently focusing on unsupervised and semi-supervised learning and more specifically, I am trying to introduce self-reflection in the context of machine learning)
+    - Applications of AI and ML to natural language processing, robotics, computer vision and finance
 
 - title: Education
   type: table
@@ -216,7 +216,7 @@
         - Mentored several groups of students working on class projects
         - Wrote and graded homework assignments and exams
 
-- title: Development skills
+- title: Software Development Skills
   type: list
   contents:
     - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript'
@@ -234,10 +234,13 @@
   type: table
   contents:
     - year: 2017
+      items: 
         - 'Speaking skills committee for the CMU Machine Learning Department'
     - year: 2016-17
+      items: 
         - 'Education Review Committee (ERC) for the CMU Machine Learning Department'
     - year: 2014-15
+      items: 
         - 'Social committee for the CMU Machine Learning Department'
     - year: 2009
       items: 
