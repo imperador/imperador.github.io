@@ -20,7 +20,7 @@
   type: table
   contents:
     - title: Carnegie Mellon University – Ph.D. in Machine Learning
-      year: 2013-16
+      year: 2013-now
       location: USA
       description:
         - 'Awarded the <b>CMU Presidential Fellowship</b>'
@@ -29,9 +29,15 @@
         - 'I work on the <a href="http://rtw.ml.cmu.edu/" target="_blank"><b>Never Ending Language Learning (NELL)</b></a> project'
         - title: 'I do research on topics related to <b>self-reflection in machine learning</b>:'
           contents:
-          - 'I have developed multiple methods for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, that I have presented at Uncertainty in Artificial Intelligence (<b>UAI</b>) in 2014, International Conference in Machine Learning (<b>ICML</b>) in 2016, and at Neural Information Processing Systems (<b>NIPS</b>) in 2017.'
-          - 'I am developing a self-reflection mechanism for machine learning systems and I am applying it in NELL'
-          - 'I am working on a new framework for learning where agreement among multiple agents is the objective'
+            - 'I have developed multiple methods for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, that I have presented at Uncertainty in Artificial Intelligence (<b>UAI</b>) in 2014, International Conference in Machine Learning (<b>ICML</b>) in 2016, and at Neural Information Processing Systems (<b>NIPS</b>) in 2017.'
+            - 'I have developed a method for performing <b>low-resource and zero-shot multilingual machine translation</b>.'
+            - 'I am developing a self-reflection mechanism for machine learning systems and I am applying it in NELL'
+            - 'I am working on a new framework for learning where agreement among multiple agents is the objective'
+        - title: 'I have created and maintain multiple open-source software projects:'
+          contents:
+            - '<a href="https://github.com/eaplatanios/tensorflow_scala" target="_blank"><b>TensorFlow Scala:</b></a> Machine learning library and API for the TensorFlow framework developed by Google, that is currently being used by multiple researchers and companies (~400 GitHub stars).'
+            - '<a href="https://github.com/eaplatanios/symphony-mt" target="_blank"><b>Symphony MT:</b></a> Machine translation library written in Scala, that supports various models along the whole translation pipeline (i.e., ranging from data preprocessing and vocabulary generation, to multiple encoder and decoder models).'
+            - '<a href="https://github.com/eaplatanios/makina" target="_blank"><b>Makina:</b></a> Machine learning and optimization library written in Java that includes a scalable implementation of the Probabilistic Soft Logic (PSL) framework.'
     - title: Carnegie Mellon University – M.S. in Machine Learning
       year: 2013-15
       location: USA
@@ -157,16 +163,28 @@
       items: 
         - '<b>11 scholarships</b> and competitions in the fields of mathematics, sciences and computer science'
 
-# - title: Research Publications
-#   type: list
-#   contents:
-#     - '<b>Emmanouil A. Platanios</b>, Hoifung Poon, Eric Horvitz, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data: A Probabilistic Logic Approach", in the Neural Information Processing Systems (<b>NIPS</b>) conference proceedings, 2017'
-#     - '<b>Emmanouil A. Platanios</b>, Avinava Dubey, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data: A Bayesian Approach", in the International Conference in Machine Learning (<b>ICML</b>) conference proceedings, 2016'
-#     - '<b>Emmanouil A. Platanios</b>, "Estimating Accuracy from Unlabeled Data", <b>Master’s Thesis</b> at <b>Carnegie Mellon University</b>, 2015'
-#     - 'Tom M. Mitchell, William Cohen, Estevam Hruschka, Partha Talukdar, Justin Betteridge, Andrew Carlson, Bhavana Dalvi, Matt Gardner, Bryan Kisiel, Jayant Krishnamurthy, Ni Lao, Kathryn Mazaitis, Tahir Mohammad, Ndapa Nakashole, <b>Emmanouil A. Platanios</b>, Alan Ritter, Mehdi Samadi, Burr Settles, Richard Wang, Derry Wijaya, Abhinav Gupta, Xinlei Chen, Abulhair Saparov, Malcolm Greaves, and Max Welling, "Never-Ending Learning," in the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2015'
-#     - '<b>Emmanouil A. Platanios</b>, Avrim Blum, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data", in the Uncertainty in Artificial Intelligence (<b>UAI</b>) conference proceedings, 2014'
-#     - '<b>Emmanouil A. Platanios</b> and Sotirios P. Chatzis, "A Mixture Gaussian Process Conditional Heteroscedasticity Model with Power-Law Nature", in IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), vol. 36(5), pp. 888-900, 2014'
-#     - '<b>Emmanouil A. Platanios</b> and Sotirios P. Chatzis, "Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes for Volatility Modeling", in the "Modern Nonparametric Methods in Machine Learning" Neural Information Processing Systems (<b>NIPS</b>) workshop, 2012'
+- title: Teaching Experience
+  type: table
+  contents:
+    - title: '<b>Teaching Assistant for a graduate-level course on never-ending learning at Carnegie Mellon University</b>'
+      year: 2018
+      location: USA
+      description:
+        - <u>Class:</u> 10-812 Architectures for Never-Ending Learning
+        - Taught by <b>Prof. Tom Mitchell</b>
+        - Gave a couple of lectures and helped with organization of the class
+        - Mentored several groups of students working on class projects
+    - title: '<b>Teaching Assistant for a graduate-level machine learning course at Carnegie Mellon University</b>'
+      year: 2014, 16
+      location: USA
+      description:
+        - <u>Class:</u> 10-701/15-781 Introduction to Machine Learning
+        - Did this for two semesters (taught by <b>Prof. Geoff Gordon</b> and <b>Prof. Aarti Singh</b> in 2014, and <b>Prof. Tom Mitchell</b> in 2016)
+        - Gave some lectures and some recitation lectures
+        - Mentored several groups of students working on class projects
+        - Wrote and graded homework assignments and exams
+
+# TODO: Services
 
 - title: Major Talks
   type: table
@@ -203,22 +221,10 @@
         - 'Generation Next 0-18 fair, in Athens'
         - '4<sup>th</sup> International Conference on Information and Communication Technologies in Bio and Earth Sciences (HAICTA 2008), in Athens'
 
-- title: Teaching Experience
-  type: table
-  contents:
-    - title: '<b>Teaching Assistant for a graduate-level machine learning course at Carnegie Mellon University</b>'
-      year: 2014, 16
-      location: USA
-      description:
-        - <u>Class:</u> 10-701/15-781 Introduction to Machine Learning
-        - Did this for two semesters (taught by <b>Prof. Geoff Gordon</b> and <b>Prof. Aarti Singh</b> in 2014, and <b>Prof. Tom Mitchell</b> in 2016)
-        - Gave some lectures and some recitation lectures
-        - Mentored several groups of students working on class projects
-        - Wrote and graded homework assignments and exams
-
 - title: Software Development Skills
   type: list
   contents:
+    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a>'
     - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript'
     - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly'
     - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE'
