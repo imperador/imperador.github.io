@@ -147,12 +147,12 @@
         - <b>Dean's List</b> at Imperial College London, for exceptional academic performance (all four years).
     - year: 2010
       items:
-        - Nominated for the RAE (Royal Academy of Engineering) presentation skills award.
+        - Nominated for the RAE (UK Royal Academy of Engineering) presentation skills award.
         - '"Roll of Honor" of the Electrical and Electronic Engineering department of Imperial College London, for the best software design project in the year.'
     - year: 2009
       items:
         - Congratulatory diploma for my work on "Project Protasis – Home Automation" by <b>UNESCO</b>.
-        - <b>Honorary plaque</b> by the <b>Minister of Education and Religious Affairs</b> for honoring my country internationally.
+        - <b>Honorary plaque</b> by the <b>Greek Minister of Education and Religious Affairs</b> for honoring my country internationally.
     - year: 2007-08
       items:
         - <b>Full scholarship</b> (of about €12,000) by "Geitonas School", for honoring my school internationally.
@@ -178,7 +178,7 @@
       description:
         - '<u>Class:</u> 10-812 Architectures for Never-Ending Learning.'
         - Taught by <b>Prof. Tom Mitchell</b>.
-        - Gave a couple of lectures and helped with organization of the class.
+        - Gave a couple of lectures and helped with the organization of the class.
         - Designed and co-led the implementation of the software testbed used to support the course projects.
         - Mentored several students working on class projects.
     - title: '<b>Teaching Assistant for a graduate-level machine learning course at Carnegie Mellon University.</b>'
@@ -255,9 +255,9 @@
   contents:
     - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a>.'
     - '<u>Machine Learning Frameworks:</u> <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>, <a href="https://pytorch.org/" target="_blank">PyTorch</a>.'
-    - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript.'
+    - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
     - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'
-    - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE.'
+    - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE, ...'
     - '<u>Database Systems:</u> PostgreSQL, MS SQL Server, MySQL.'
 
 - title: Other Interests
