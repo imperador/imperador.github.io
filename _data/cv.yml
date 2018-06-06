@@ -191,7 +191,29 @@
         - Mentored several groups of students working on class projects.
         - Wrote and graded homework assignments and exams.
 
-# TODO: Services
+- title: Services
+  type: nested_list
+  contents:
+    - title: '<u>Program Committees:</u> IEEE-TPAMI (2017), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), NIPS-AKBC (2016).'
+    - title: '<u>Conference Workshops Organized:</u>'
+      items:
+        - '2018: NIPS Never-Ending Learning.'
+        - '2017, 18: NIPS Learning with Limited Labeled Data.'
+    - title: '<u>University Committees:</u>'
+      items:
+        - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
+        - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
+        - '2014-15: Social committee for the CMU Machine Learning Department.'
+    - title: '<u>Community Service:</u>'
+      items:
+        - '2009: Volunteer at the Lavrion refugee center, in Athens, Greece.'
+        - '2008: Reforestation of mountainside in Rafina, Greece.'
+        - '2008: Volunteer for the International Baccalaureate Organization (IBO) training workshop.'
+        - '2008: 13<sup style="vertical-align: top; position: relative; top: -0.5em;">th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.'
+        - '2008: Helped organize the "Christmas Bazaar" (fund raiser project).'
+        - '2008: Helped organize the "Love Feast" (celebrating  family values and fund raising for the victims of forest fires in Greece).'
+        - '2007: Reforestation in Mani, Greece.'
+        - '2007: Volunteer at the "AQUA GALA" event for physically challenged children, for the "Hellenic Society for Disabled Children".'
 
 - title: Major Talks
   type: table
@@ -243,30 +265,3 @@
   contents:
     - '<u>Sports:</u> Tennis, Squash, Winter Skiing, Basketball, Sailing, and Windsurfing.'
     - '<u>Hobbies:</u> Traveling, Philosophy, and Politics (I also really want to learn to play the Guitar).'
-
-- title: Other Services
-  type: table
-  contents:
-    - year: 2017
-      items: 
-        - Speaking skills committee for the CMU Machine Learning Department.
-    - year: 2016-17
-      items: 
-        - Education Review Committee (ERC) for the CMU Machine Learning Department.
-    - year: 2014-15
-      items: 
-        - Social committee for the CMU Machine Learning Department.
-    - year: 2009
-      items: 
-        - Volunteer service at the Lavrion refugee center, in Athens, Greece.
-    - year: 2008
-      items: 
-        - Reforestation of mountainside in Rafina, Greece.
-        - Volunteer service for the International Baccalaureate Organization (IBO) training workshop.
-        - 13<sup>th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.
-        - Organizing member of "Christmas Bazaar" (fund raiser project).
-        - Organizing member of "Love Feast" (feast to celebrate family values and raise funds for the victims of the then recent fires in Greece).
-    - year: 2007
-      items:
-        - Reforestation in Mani, Greece.
-        - Volunteer service at the "AQUA GALA" event for children who are physically challenged, for the "Hellenic Society for Disabled Children".

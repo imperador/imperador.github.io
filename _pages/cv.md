@@ -15,7 +15,7 @@ title: cv
 {% for entry in site.data.cv %}
   <h3>{{ entry.title }}</h3>
   <div>
-	{% if entry.type == "list" %}
+  {% if entry.type == "list" %}
 	  <ul class="list">
 		{% for content in entry.contents %}
 		  <li>{{ content}}</li>
@@ -30,6 +30,21 @@ title: cv
 		  </tr>
 		{% endfor %}
 	  </table>
+  {% elsif entry.type == "nested_list" %}
+	  <ul class="list">
+		{% for content in entry.contents %}
+		  <li>
+		  {{ content.title }}
+		  {% if content.items %}
+		  	<ul class="subitems">
+            {% for subitem in content.items %}
+              <li><span class="subitem">{{ subitem }}</span></li>
+            {% endfor %}
+            </ul>
+      	  {% endif %}
+		  </li>
+		{% endfor %}
+	  </ul>
   {% elsif entry.type == "table" %}
 	  <ul class="table">
 		{% for content in entry.contents %}
