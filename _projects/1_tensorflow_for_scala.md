@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TensorFlow for Scala
+title: TensorFlow Scala
 description: linear algebra, tensors, and neural networks, brought to Scala
 img: /assets/img/tensorflow_for_scala_logo.svg
 ---
