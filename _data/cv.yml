@@ -122,7 +122,7 @@
     - title: '<a href="https://github.com/eaplatanios/tensorflow_scala" target="_blank"><b>TensorFlow Scala.</b></a>'
       year: 2017-now
       # location: USA
-      description: Machine learning library and API for the <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> framework developed by Google, that is currently being used by multiple researchers and companies (~400 GitHub stars).
+      description: Machine learning library and API for the <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> framework developed by Google, that is currently being used by multiple researchers and companies (~600 GitHub stars).
     - title: '<a href="https://github.com/eaplatanios/symphony-mt" target="_blank"><b>Symphony MT.</b></a>'
       year: 2018
       # location: USA
@@ -194,13 +194,14 @@
 - title: Services
   type: nested_list
   contents:
-    - title: '<u>Program Committees:</u> IEEE-TPAMI (2017), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), NIPS-AKBC (2016).'
+    - title: '<u>Program Committees:</u> ICML (2019), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), IEEE-TPAMI (2017), NIPS-AKBC (2016).'
     - title: '<u>Conference Workshops Organized:</u>'
       items:
-        - '2018: NIPS Never-Ending Learning.'
-        - '2017, 18: NIPS Learning with Limited Labeled Data.'
+        - '2019: ICLR Learning with Limited Labeled Data.'
+        - '2017: NIPS Learning with Limited Labeled Data.'
     - title: '<u>University Committees:</u>'
       items:
+        - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
         - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
         - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
         - '2014-15: Social committee for the CMU Machine Learning Department.'
@@ -218,13 +219,19 @@
 - title: Major Talks
   type: table
   contents:
+    - title: '<i>TensorFlow Scala</i>.'
+      year: 2018
+      location: USA
+      description:
+        - 'Invited talk at <b>Google</b>.'
     - title: '<i>Estimating Accuracy from Unlabeled Data</i>.'
-      year: 2014-16
+      year: 2014-18
       location: USA
       description:
         - Neural Information Processing Systems (<b>NIPS</b>) conference.
         - International Conference in Machine Learning (<b>ICML</b>) conference.
         - Uncertainty in Artificial Intelligence (<b>UAI</b>) conference.
+        - 'Invited talk at <b>Google</b>.'
         - AI Lunch at Stanford University.
         - ML Lunch at Carnegie Mellon University.
     - title: '<i>Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes</i>.'
@@ -253,7 +260,7 @@
 - title: Software Development Skills
   type: list
   contents:
-    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a>.'
+    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~600 stars from open-source projects).'
     - '<u>Machine Learning Frameworks:</u> <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>, <a href="https://pytorch.org/" target="_blank">PyTorch</a>.'
     - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
     - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'
