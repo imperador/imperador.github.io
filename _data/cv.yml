@@ -13,7 +13,7 @@
 - title: Research Areas
   type: list
   contents:
-    - Theoretical artificial intelligence (AI) and machine learning (ML) (I am currently focusing on unsupervised and semi-supervised learning and more specifically, I am trying to introduce self-reflection in the context of machine learning).
+    - Artificial intelligence (AI) and machine learning (ML) (I am currently focusing on unsupervised and semi-supervised learning and more specifically, I am trying to introduce self-reflection in the context of machine learning).
     - Applications of AI and ML to natural language processing, robotics, computer vision and finance.
 
 - title: Education
@@ -194,9 +194,10 @@
 - title: Services
   type: nested_list
   contents:
-    - title: '<u>Program Committees:</u> ICML (2019), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), IEEE-TPAMI (2017), NIPS-AKBC (2016).'
+    - title: '<u>Program Committees:</u> EMNLP (2019), ICML (2019), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), IEEE-TPAMI (2017), NIPS-AKBC (2016).'
     - title: '<u>Conference Workshops Organized:</u>'
       items:
+        - '2019: ICML Adaptive & Multi-Task Learning.'
         - '2019: ICLR Learning with Limited Labeled Data.'
         - '2017: NIPS Learning with Limited Labeled Data.'
     - title: '<u>University Committees:</u>'
@@ -260,9 +261,9 @@
 - title: Software Development Skills
   type: list
   contents:
-    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~600 stars from open-source projects).'
+    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~700 stars from open-source projects).'
     - '<u>Machine Learning Frameworks:</u> <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>, <a href="https://pytorch.org/" target="_blank">PyTorch</a>.'
-    - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
+    - '<u>High Level Programming Languages:</u> Swift, Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
     - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'
     - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE, ...'
     - '<u>Database Systems:</u> PostgreSQL, MS SQL Server, MySQL.'

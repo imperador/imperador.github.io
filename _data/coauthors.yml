@@ -55,6 +55,12 @@ Mitchell:
 Nakashole:
   url: http://nakashole.com/
 
+Neubig:
+  url: http://www.phontron.com/
+
+Poczos:
+  url: http://www.cs.cmu.edu/~bapoczos/
+
 Poon:
   url: https://www.microsoft.com/en-us/research/people/hoifung/
 
@@ -72,6 +78,9 @@ Settles:
 
 Smola:
   url: https://alex.smola.org/
+
+Stretcu:
+  url: https://otiliastr.github.io/
 
 Wang:
   url: http://www.cs.cmu.edu/~rcwang/
