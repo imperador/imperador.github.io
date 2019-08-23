@@ -7,7 +7,7 @@ description: classes, workshops, and teaching material
 
 <h3 class="mt-4">carnegie mellon university</h3>
 
-<div class="card mt-3 p-3">
+<div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
