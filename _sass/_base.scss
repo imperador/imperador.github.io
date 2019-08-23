@@ -11,7 +11,7 @@
 
 
 /** Variables **********************************************/
-$max-page-width: 700px;
+$max-page-width: 800px;
 $base-font-family:              Helvetica, sans-serif;
 $base-font-size:                15px;
 $base-line-height:              1.5em;
@@ -41,7 +41,8 @@ $text-color:        #666;
 
 /* Set theme color *************************/
 $theme-color: rgb(238, 83, 0);
-
+$gradient-color: linear-gradient(40deg, rgb(255, 216, 111), rgb(252, 98, 98));
+$dark-gradient-color: linear-gradient(40deg, darken(rgb(255, 216, 111), 30%), darken(rgb(252, 98, 98), 30%));
 
 /************************************************************/
 
@@ -117,73 +118,8 @@ footer {
     border-top: 0;
 }
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-// p, blockquote, pre,
-// ul, ol, dl, figure,
-// %vertical-rhythm {
-//     margin-bottom: $vertical-spacing-unit / 2;
-// }
+// Links
 
-// .alignright {
-//     float: right;
-// }
-
-
-// hr {
-//     /* Inset, by Dan Eden */
-//     border: 0;
-//     border-top: 1px solid rgba(0, 0, 0, 0.1);
-//     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-//     height: 0;
-//     margin: 20px 0;
-// }
-
-
-// /**
-//  * Figures
-//  */
-// figure > img {
-//     display: block;
-// }
-
-// figcaption {
-//     font-size: $small-font-size;
-// }
-
-// /**
-//  * Lists
-//  */
-// ul, ol {
-//     margin-left: $horizontal-spacing-unit;
-// }
-
-// li {
-//     > ul,
-//     > ol {
-//         margin-bottom: 0;
-//     }
-// }
-
-
-
-/**
- * Headings
- */
-// h1, h2, h3, h4, h5, h6 {
-//     // font-weight: 100;
-//     margin-bottom: $vertical-spacing-unit / 2;
-// }
-
-// h2 {
-//     margin-top: 3 * $vertical-spacing-unit / 4;
-// }
-
-
-/**
- * Links
- */
 a {
     color: $theme-color;
     text-decoration: none;
@@ -198,7 +134,7 @@ a {
 }
 
 .contacticon .fa, .contacticon .ai {
-    background: linear-gradient(40deg, rgb(255, 216, 111), rgb(252, 98, 98));
+    background: $gradient-color;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -206,8 +142,23 @@ a {
 
     &:hover {
         background: $theme-color;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         text-decoration: none;
     }
+}
+
+.bib-abbr a {
+    width: 60px;
+
+    &:hover {
+        background: $dark-gradient-color !important;
+    }
+}
+
+.bib-abbr span {
+    width: 65px;
 }
 
 // .contacticon a {

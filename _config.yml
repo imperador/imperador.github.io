@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 name: Anthony Platanios
-email: e.a.platanios@cs.cmu.edu
+email: e.a.platanios@gmail.com
 description: > # this means to ignore newlines until "url:"
   My personal website.
 # footer_text: >
@@ -92,6 +92,7 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  reference_tagname: div
 
   replace_strings: true
   join_strings: true

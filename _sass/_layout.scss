@@ -237,10 +237,7 @@
 }
 
 .bibliography-year {
-  border-top: 1px solid #ddd;
   color: #ddd;
-  margin: 0 -3em -2.5ex -2em;
-  padding-top: 1ex;
   text-align: right;
 }
 
@@ -253,15 +250,9 @@
     position: relative;
     list-style: none;
 
-    span {
-      font-size: 14px;
-      display: block;
-    }
-
     .title {
       font-size: 18px;
       font-weight: bolder;
-      margin-bottom: 0px;
     }
 
     .author {
@@ -269,7 +260,7 @@
 
       a {
         color: $text-color;
-        border-bottom: 1px dashed; // $theme-color;
+        border-bottom: 1px dashed;
 
         &:hover {
           border-bottom-style: solid;
@@ -281,74 +272,17 @@
         font-weight: bold;
         font-style: normal;
         color: $theme-color;
-        // border-bottom: 1px solid;
       }
     }
 
-    a.abstract, a.bibtex {
-      cursor: pointer;
+    .periodical {
+      font-size: 14px;
+      line-height: 1.2em;
+      margin-bottom: 5px;
     }
 
-    .hidden {
-      font-size: $small-font-size;
-      max-height: 0px;
-      overflow: hidden;
-      text-align: justify;
-      -webkit-transition: 0.15s ease;
-      -moz-transition: 0.15s ease;
-      -ms-transition: 0.15s ease;
-      -o-transition: 0.15s ease;
-      transition: all 0.15s ease;
-
-      p {
-        line-height: 1.4em;
-        margin: 10px;
-      }
-
-      pre {
-        font-size: 1em;
-        line-height: 1.4em;
-        padding: 10px;
-      }
-    }
-
-    .hidden.open {
-      margin-top: 10px;
-      max-height: 100em;
-      -webkit-transition: 0.15s ease;
-      -moz-transition: 0.15s ease;
-      -ms-transition: 0.15s ease;
-      -o-transition: 0.15s ease;
-      transition: all 0.15s ease;
-    }
-
-    span.abstract.hidden {
-      border: dashed 1px $background-color;
-    }
-
-    span.abstract.hidden.open {
-      border-color: $grey-color;
-    }
-  }
-
-  abbr {
-    position: absolute;
-    left: -7em;
-    text-align: left;
-
-    /*border-radius: 5px;*/
-    /*border-color: $grey-color-light;*/
-    /*background: #fff;*/
-    width: 60px;
-
-    a {
-      font-size: 30px;
-      color: #ddd;
-
-      &:hover {
-        color: $theme-color;
-        text-decoration: none;
-      }
+    .abstract {
+      font-size: 14px;
     }
   }
 }
@@ -356,11 +290,6 @@
 .star {
   color: $theme-color;
   font-style: normal;
-}
-
-.periodical {
-  line-height: 1.2em;
-  margin-bottom: 5px;
 }
 
 .publication-links {
@@ -454,15 +383,6 @@
   height: $img_height;
   width: 100%;
   overflow: hidden;
-  box-sizing: border-box;
-  padding: $img_spacing;
-}
-
-.col {
-  width: 100%;
-  height: 100%;
-  float: left;
-  object-fit: cover;
   box-sizing: border-box;
   padding: $img_spacing;
 }
