@@ -1,16 +1,17 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-}
+// body, h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre, hr,
+// dl, dd, ol, ul, figure {
+//   margin: 0;
+//   padding: 0;
+// }
 
 
 
 /** Variables **********************************************/
+$max-page-width: 700px;
 $base-font-family:              Helvetica, sans-serif;
 $base-font-size:                15px;
 $base-line-height:              1.5em;
@@ -39,174 +40,233 @@ $grey-color-light:  #ddd;  /* navigation bar border */
 $text-color:        #666;
 
 /* Set theme color *************************/
-$theme-color:   $brown_orange;
+$theme-color: rgb(238, 83, 0);
 
 
 /************************************************************/
 
-/**
- * Basic styling
- */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 100;
+    // Add some padding for the nav-bar.
+    padding-top: 56px;
+    padding-bottom: 70px;
+
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
 
+.navbar {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
 
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: $max-page-width;
+    }
+}
+
+footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+
+    div {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: $max-page-width;
+    }
+
+    font-size: 72%;
+    padding: 2px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+  
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $theme-color;
+    }
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: $max-page-width;
+}
+
+.title {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.affiliation {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+// This is used to remove the top border in the lists of the "teaching" page.
+.list-group-flush .list-group-item:first-child {
+    border-top: 0;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $vertical-spacing-unit / 2;
-}
+// p, blockquote, pre,
+// ul, ol, dl, figure,
+// %vertical-rhythm {
+//     margin-bottom: $vertical-spacing-unit / 2;
+// }
 
-.alignright {
-    float: right;
-}
-
-
-hr {
-    /* Inset, by Dan Eden */
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    height: 0;
-    margin: 20px 0;
-}
+// .alignright {
+//     float: right;
+// }
 
 
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
+// hr {
+//     /* Inset, by Dan Eden */
+//     border: 0;
+//     border-top: 1px solid rgba(0, 0, 0, 0.1);
+//     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+//     height: 0;
+//     margin: 20px 0;
+// }
 
-figcaption {
-    font-size: $small-font-size;
-}
 
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $horizontal-spacing-unit;
-}
+// /**
+//  * Figures
+//  */
+// figure > img {
+//     display: block;
+// }
 
-li {
-    > ul,
-    > ol {
-        margin-bottom: 0;
-    }
-}
+// figcaption {
+//     font-size: $small-font-size;
+// }
+
+// /**
+//  * Lists
+//  */
+// ul, ol {
+//     margin-left: $horizontal-spacing-unit;
+// }
+
+// li {
+//     > ul,
+//     > ol {
+//         margin-bottom: 0;
+//     }
+// }
 
 
 
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 100;
-    margin-bottom: $vertical-spacing-unit / 2;
-}
+// h1, h2, h3, h4, h5, h6 {
+//     // font-weight: 100;
+//     margin-bottom: $vertical-spacing-unit / 2;
+// }
 
-h2 {
-    margin-top: 3 * $vertical-spacing-unit / 4;
-}
+// h2 {
+//     margin-top: 3 * $vertical-spacing-unit / 4;
+// }
 
 
 /**
  * Links
  */
 a {
-    color: $text-color;
+    color: $theme-color;
     text-decoration: none;
-    /*
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-    */
+
     &:hover {
-        color: $theme-color;
         text-decoration: none;
     }
 }
 
-article a, .news a {
-    color: $theme-color;
-    font-weight: 100;
+.navbar-brand a {
+    color: #f8f9fa !important;
+}
+
+.contacticon .fa, .contacticon .ai {
+    background: linear-gradient(40deg, rgb(255, 216, 111), rgb(252, 98, 98));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
 
     &:hover {
-        text-decoration: underline;
+        background: $theme-color;
+        text-decoration: none;
     }
 }
 
-.social a {
-    color: $text-color;
+// .contacticon a {
+    // color: $text-color;
 
-    &:hover { color: $theme-color; }
-}
+    // &:hover { color: $theme-color; }
+// }
 
+// /**
+//  * Blockquotes
+//  */
+// blockquote {
+//     color: $text-color;
+//     border-left: 10px solid $grey-color-light;
+//     padding-left: $horizontal-spacing-unit / 2;
+//     font-size: 18px;
+//     font-style: italic;
 
-/**
- * Blockquotes
- */
-blockquote {
-    color: $text-color;
-    border-left: 10px solid $grey-color-light;
-    padding-left: $horizontal-spacing-unit / 2;
-    font-size: 18px;
-    font-style: italic;
+//     > :last-child {
+//         margin-bottom: 0;
+//     }
+// }
 
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
+// /**
+//  * Equations
+//  */
+// div.equation {
+//     margin: 20px 0;
+// }
 
-/**
- * Equations
- */
-div.equation {
-    margin: 20px 0;
-}
+// /**
+//  * Wrapper
+//  */
 
-/**
- * Wrapper
- */
+// .wrapper {
+//     max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+//     max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding-right: $horizontal-spacing-unit;
+//     padding-left: $horizontal-spacing-unit;
+//     @extend .clearfix;
 
-.wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $horizontal-spacing-unit;
-    padding-left: $horizontal-spacing-unit;
-    @extend .clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
+//     // @include media-query($on-laptop) {
+//     //     max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+//     //     max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+//     //     padding-right: $spacing-unit / 2;
+//     //     padding-left: $spacing-unit / 2;
+//     // }
+// }
 
 /**
  * Clearfix
  */
-.clearfix {
-    &:before,
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
+// .clearfix {
+//     &:before,
+//     &:after {
+//         content: "";
+//         display: table;
+//         clear: both;
+//     }
+// }
