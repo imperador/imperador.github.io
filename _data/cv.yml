@@ -13,15 +13,13 @@
 - title: Research Areas
   type: list
   contents:
-    - Artificial intelligence (AI) and machine learning (ML) (I am currently focusing on unsupervised and semi-supervised learning and more specifically, I am trying to introduce self-reflection in the context of machine learning).
-    - Applications of AI and ML to natural language processing, robotics, computer vision and finance.
+    - Machine learning and artificial intelligence with a focus on neural cognitive architectures and applications of AI and ML to natural language processing, robotics, computer vision and finance.
 
 - title: Education
   type: table
   contents:
     - title: Carnegie Mellon University – Ph.D. in Machine Learning.
       year: 2013-now
-      location: USA
       description:
         - Awarded the <b>CMU Presidential Fellowship</b>.
         - '<u>GPA:</u> <b>4.18</b> (4.0 scale).'
@@ -35,7 +33,6 @@
             - I am working on a new framework for learning where agreement among multiple agents is the objective.
     - title: Carnegie Mellon University – M.S. in Machine Learning.
       year: 2013-15
-      location: USA
       description:
         - '<u>GPA:</u> 4.18 (4.0 scale).'
         - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Prof. Tom M. Mitchell</a>.'
@@ -43,7 +40,6 @@
         - Master's degree requirements completed while working towards obtaining my Ph.D. in machine learning.
     - title: Imperial College London – M.Eng. and ACGI in Electrical and Electronic Engineering.
       year: 2009-13
-      location: UK
       description:
         - Integrated Bachelor's and Master's degree.
         - <b>Dean’s List</b> for exceptional academic performance (all four years).
@@ -62,13 +58,11 @@
   contents:
     - title: 'Research Consultant at Cubist Systematic Strategies.'
       year: 2016-17
-      location: USA
       description:
         - Worked for the Advanced Methods Groups (AMG) in new machine learning-driven approaches for end-to-end algorithmic trading systems.
         - Developed the main pipeline for trading algorithms research and for integrating these algorithms in a new production system.
     - title: 'Research Intern at Microsoft Research.'
       year: 2015
-      location: USA
       description:
         - '<u>Manager:</u> <a href="http://erichorvitz.com" target="_blank"><b>Dr. Eric Horvitz</b></a>, Distinguished Scientist and Managing Director of Microsoft Research.'
         - '<u>Collaborators:</u> <a href="https://www.microsoft.com/en-us/research/people/hoifung/" target="_blank"><b>Dr. Hoifung Poon</b></a> and <a href="https://www.microsoft.com/en-us/research/people/akapoor/" target="_blank"><b>Dr. Ashish Kapoor</b></a>.'
@@ -76,7 +70,6 @@
         - '<u>Last 3 months:</u> Active learning amidst logical knowledge.'
     - title: 'Co-Founder, President and Chief Technology Officer (CTO) at Holic.'
       year: 2010-13
-      location: Greece
       description:
         - Developed an intelligent news reader application.
         - Developed algorithms utilizing advanced nonparametric Bayesian models for clustering news articles and for user profiling.
@@ -86,7 +79,6 @@
             - Mr. Leon Yohai, Founder & CEO of ZuluTrade.
     - title: 'Founder of Project Protasis – Forest Protection.'
       year: 2008-10
-      location: Greece
       description:
         - Developed a forest fire detection and prevention system.
         - Developed both hardware and software (involving use of neural networks for recognizing fire and smoke in photos).
@@ -96,13 +88,10 @@
         - Won the 2<sup>nd</sup> place in the <b>Microsoft Imagine Cup 2009</b> Greek Finals with this project.
     - title: 'Web Designer and Software Developer at Curtainmakers S.A.'
       year: 2010
-      location: Greece
     - title: 'Software Developer at vWorker.com.'
       year: 2009-10
-      location: Greece
     - title: 'Founder of Project Protasis – Home Automation.'
       year: 2007-09
-      location: Greece
       description: 
         - Developed a smart home automation system that controls all electrical appliances, heating systems and water systems and aims to reduce domestic energy consumption while making the lives of homeowners as comfortable as possible.
         - Developed software, employing several machine learning algorithms.
@@ -111,25 +100,20 @@
         - Won the <b>Microsoft Imagine Cup 2008</b> Greek Finals with this project and represented Greece in the Imagine Cup 2008 Worldwide Finals, in Paris, France, competing against teams from universities, at age of only 16 and having worked without a team or a mentor.
     - title: 'Software Developer and I.T. Professional at Sigma Group Inc.'
       year: 2007-08
-      location: USA
     - title: 'Software Developer and I.T. Professional at Embiria S.A.'
       year: 2006
-      location: USA
 
 - title: Open Source Projects
   type: table
   contents:
     - title: '<a href="https://github.com/eaplatanios/tensorflow_scala" target="_blank"><b>TensorFlow Scala.</b></a>'
       year: 2017-now
-      # location: USA
       description: Machine learning library and API for the <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> framework developed by Google, that is currently being used by multiple researchers and companies (~600 GitHub stars).
     - title: '<a href="https://github.com/eaplatanios/symphony-mt" target="_blank"><b>Symphony MT.</b></a>'
       year: 2018
-      # location: USA
       description: Machine translation library written in Scala, that supports various models along the whole translation pipeline (i.e., ranging from data preprocessing and vocabulary generation, to multiple encoder and decoder models).
     - title: '<a href="https://github.com/eaplatanios/makina" target="_blank"><b>Makina.</b></a>'
       year: 2014-16
-      # location: USA
       description: Machine learning and optimization library written in Java that includes a scalable implementation of the Probabilistic Soft Logic (PSL) framework.
 
 - title: Honors and Awards
@@ -174,7 +158,6 @@
   contents:
     - title: '<b>Provided support for an advanced graduate-level course on machine learning at Carnegie Mellon University.</b>'
       year: 2018
-      location: USA
       description:
         - '<u>Class:</u> 10-812 Architectures for Never-Ending Learning.'
         - Taught by <b>Prof. Tom Mitchell</b>.
@@ -183,7 +166,6 @@
         - Mentored several students working on class projects.
     - title: '<b>Teaching Assistant for a graduate-level machine learning course at Carnegie Mellon University.</b>'
       year: 2014, 16
-      location: USA
       description:
         - '<u>Class:</u> 10-701/15-781 Introduction to Machine Learning.'
         - Did this for two semesters (taught by <b>Prof. Geoff Gordon</b> and <b>Prof. Aarti Singh</b> in 2014, and <b>Prof. Tom Mitchell</b> in 2016).
@@ -194,19 +176,20 @@
 - title: Services
   type: nested_list
   contents:
-    - title: '<u>Program Committees:</u> EMNLP (2019), ICML (2019), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), IEEE-TPAMI (2017), NIPS-AKBC (2016).'
-    - title: '<u>Conference Workshops Organized:</u>'
+    - title: 'Program Committees'
+      items: 'EMNLP (2019), ICML (2019), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), IEEE-TPAMI (2017), NIPS-AKBC (2016).'
+    - title: 'Conference Workshops Organized'
       items:
         - '2019: ICML Adaptive & Multi-Task Learning.'
         - '2019: ICLR Learning with Limited Labeled Data.'
         - '2017: NIPS Learning with Limited Labeled Data.'
-    - title: '<u>University Committees:</u>'
+    - title: 'University Committees'
       items:
         - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
         - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
         - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
         - '2014-15: Social committee for the CMU Machine Learning Department.'
-    - title: '<u>Community Service:</u>'
+    - title: 'Community Service'
       items:
         - '2009: Volunteer at the Lavrion refugee center, in Athens, Greece.'
         - '2008: Reforestation of mountainside in Rafina, Greece.'
@@ -222,12 +205,10 @@
   contents:
     - title: '<i>TensorFlow Scala</i>.'
       year: 2018
-      location: USA
       description:
         - 'Invited talk at <b>Google</b>.'
     - title: '<i>Estimating Accuracy from Unlabeled Data</i>.'
       year: 2014-18
-      location: USA
       description:
         - Neural Information Processing Systems (<b>NIPS</b>) conference.
         - International Conference in Machine Learning (<b>ICML</b>) conference.
@@ -237,18 +218,15 @@
         - ML Lunch at Carnegie Mellon University.
     - title: '<i>Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes</i>.'
       year: 2012
-      location: USA
       description:
         - '"Nonparametric Methods in Machine Learning" workshop at <b>NIPS</b>.'
     - title: '<i>Project Protasis - Forest Protection</i>.'
       year: 2009
-      location: Greece
       description:
         - <b>Microsoft Hellas Headquarters</b>.
         - <b>Ministry of Transportation</b> of the Greek government (the Ministry later funded a pilot program).
     - title: '<i>Project Protasis - Home Automation</i>.'
       year: 2008-09
-      location: Greece, France
       description:
         - <b>Microsoft Hellas Headquarters</b>.
         - <b>Louvre Museum</b> in Paris, France, as part of Imagine Cup.
@@ -261,7 +239,7 @@
 - title: Software Development Skills
   type: list
   contents:
-    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~700 stars from open-source projects).'
+    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~800 stars from open-source projects).'
     - '<u>Machine Learning Frameworks:</u> <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>, <a href="https://pytorch.org/" target="_blank">PyTorch</a>.'
     - '<u>High Level Programming Languages:</u> Swift, Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
     - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'

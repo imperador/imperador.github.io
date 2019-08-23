@@ -4,101 +4,107 @@ permalink: /cv/
 title: cv
 ---
 
-<div class="cv-pdf">
-	<a href="/assets/pdf/vitae.pdf" target="_blank">
-	  <img height="60px" src="/assets/img/pdf_icon.png">
-	  <p>PDF</p>
+<!-- Place PDF download link at the top right. -->
+<div class="row" style="margin-top: -3.5em;">
+	<a class="ml-auto" href="/assets/pdf/vitae.pdf" target="_blank">
+	  <img height="60px" src="/assets/img/pdf_icon.svg">
 	</a>
 </div>
 
 <div class="cv">
-{% for entry in site.data.cv %}
-  <h3>{{ entry.title }}</h3>
-  <div>
-  {% if entry.type == "list" %}
-	  <ul class="list">
-		{% for content in entry.contents %}
-		  <li>{{ content}}</li>
-		{% endfor %}
-	  </ul>
-  {% elsif entry.type == "map" %}
-	  <table class="map">
-		{% for content in entry.contents %}
-			<tr>
-		  <td><b>{{ content.name }}</b></td>
-		  <td>{{ content.value }}</td>
-		  </tr>
-		{% endfor %}
-	  </table>
-  {% elsif entry.type == "nested_list" %}
-	  <ul class="list">
-		{% for content in entry.contents %}
-		  <li>
-		  {{ content.title }}
-		  {% if content.items %}
-		  	<ul class="subitems">
-            {% for subitem in content.items %}
-              <li><span class="subitem">{{ subitem }}</span></li>
-            {% endfor %}
-            </ul>
-      	  {% endif %}
-		  </li>
-		{% endfor %}
-	  </ul>
-  {% elsif entry.type == "table" %}
-	  <ul class="table">
-		{% for content in entry.contents %}
-			{% if content.location %}
-		    <h3 class="location">{{ content.location }}</h3>
-		  {% endif %}
-		  <li class="table-row">
-		  {% if content.year %}
-		    <span class="year">{{ content.year }}</span>
-		  {% endif %}
-		  	<div>
-		  		{% if content.title %}
-				  	<span class="title">{{content.title}}</span>
-				  	{% if content.description %}
-					  	<ul class="items">
-	            {% for item in content.description %}
-	              <li>
-	              	{% if item.contents %}
-	              		<span class="item-title">{{ item.title }}</span>
-	              		<ul class="subitems">
-				            {% for subitem in item.contents %}
-				              <li><span class="subitem">{{ subitem }}</span></li>
-				            {% endfor %}
-				            </ul>
-	              	{% else %}
-	              		<span class="item">{{ item }}</span>
-	              	{% endif %}
-	              </li>
-	            {% endfor %}
-					  	</ul>
-				  	{% endif %}
-				  {% else %}
-				    <ul class="items">
-            {% for item in content.items %}
-              <li>
-              	{% if item.contents %}
-              		<span class="item-title">{{ item.title }}</span>
-              		<ul class="subitems">
-			            {% for subitem in item.contents %}
-			              <li><span class="subitem">{{ subitem }}</span></li>
-			            {% endfor %}
-			            </ul>
-              	{% else %}
-              		<span class="item">{{ item }}</span>
-              	{% endif %}
-              </li>
-            {% endfor %}
-				  	</ul>
-				  {% endif %}
-			  </div>
-		  </li>
-		{% endfor %}
-	  </ul>
-  {% endif %}
-  </div>
-{% endfor %}
+	{% for entry in site.data.cv %}
+		<div class="card mt-3 p-3">
+			<h3 class="card-title">{{ entry.title }}</h3>
+			<div>
+			{% if entry.type == "list" %}
+				<ul class="card-text font-weight-light list-group list-group-flush">
+				{% for content in entry.contents %}
+					<li class="list-group-item">{{ content}}</li>
+				{% endfor %}
+				</ul>
+			{% elsif entry.type == "map" %}
+				<table class="table table-sm table-borderless">
+				{% for content in entry.contents %}
+					<tr>
+						<td class="p-0 pr-2 font-weight-bold text-right"><b>{{ content.name }}</b></td>
+						<td class="p-0 pl-2 font-weight-light text-left">{{ content.value }}</td>
+					</tr>
+				{% endfor %}
+				</table>
+			{% elsif entry.type == "nested_list" %}
+				<ul class="card-text font-weight-light list-group list-group-flush">
+				{% for content in entry.contents %}
+					<li class="list-group-item">
+					<h5 class="font-italic">{{ content.title }}</h5>
+					{% if content.items %}
+						<ul class="subitems">
+								{% for subitem in content.items %}
+									<li><span class="subitem">{{ subitem }}</span></li>
+								{% endfor %}
+								</ul>
+							{% endif %}
+					</li>
+				{% endfor %}
+				</ul>
+			{% elsif entry.type == "table" %}
+				<ul class="card-text font-weight-light list-group list-group-flush">
+				{% for content in entry.contents %}
+					<li class="list-group-item">
+						<div class="row">
+							{% if content.year %}
+								<div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 75px;">
+									<span class="badge font-weight-bold peach-gradient text-uppercase align-middle" style="width: 75px;">
+										{{ content.year }}
+									</span>
+								</div>
+							{% endif %}
+							<div class="col-xs-10 cl-sm-10 col-md mt-2 mt-md-0">
+								{% if content.title %}
+								<h6 class="title ml-1 ml-md-4">{{content.title}}</h6>
+								{% endif %}
+								{% if content.description %}
+									<ul class="items">
+										{% for item in content.description %}
+											<li>
+												{% if item.contents %}
+													<span class="item-title">{{ item.title }}</span>
+													<ul class="subitems">
+													{% for subitem in item.contents %}
+														<li><span class="subitem">{{ subitem }}</span></li>
+													{% endfor %}
+													</ul>
+												{% else %}
+													<span class="item">{{ item }}</span>
+												{% endif %}
+											</li>
+										{% endfor %}
+									</ul>
+								{% endif %}
+								{% if content.items %}
+									<ul class="items">
+										{% for item in content.items %}
+											<li>
+												{% if item.contents %}
+													<span class="item-title">{{ item.title }}</span>
+													<ul class="subitems">
+													{% for subitem in item.contents %}
+														<li><span class="subitem">{{ subitem }}</span></li>
+													{% endfor %}
+													</ul>
+												{% else %}
+													<span class="item">{{ item }}</span>
+												{% endif %}
+											</li>
+										{% endfor %}
+									</ul>
+								{% endif %}
+							</div>
+						</div>
+					</li>
+				{% endfor %}
+				</ul>
+			{% endif %}
+			</div>
+		</div>
+	{% endfor %}
 </div>

@@ -251,7 +251,7 @@
     list-style: none;
 
     .title {
-      font-size: 18px;
+      // font-size: 18px;
       font-weight: bolder;
     }
 
@@ -418,40 +418,9 @@
 /*****************************************************************************
  * CV
  *****************************************************************************/
-.cv-pdf {
-  float: right;
-  margin-top: -85px;
-  text-align: center;
-  color: $text-color;
-
-  a {
-    color: $text-color;
-  }
-
-  a:hover {
-    color: $theme-color;
-    text-decoration: none;
-  }
-}
-
 .cv {
   h3 {
     color: $theme-color;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .list {
-    list-style: square;
-    margin-left: 0px;
-  }
-
-  .map {
-    border: 0px;
-    border-spacing: 25px 2px;
-    border-collapse: separate;
-    margin-left: -25px;
   }
 
   .table {
