@@ -23,14 +23,14 @@
   <!-- Header -->
   <nav class="navbar fixed-top navbar-expand-sm stylish-color-dark navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="{{ site.baseurl | prepend: site.url }}"><b>Anthony</b> Platanios</a>
+      <a class="navbar-brand" href="{{ site.baseurl | prepend: site.url }}/"><b>Anthony</b> Platanios</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <li class="nav-item {% if page.title == "about" %}active{% endif %}">
-            <a class="nav-link" href="{{ site.baseurl | prepend: site.url }}">
+            <a class="nav-link" href="{{ site.baseurl | prepend: site.url }}/">
               about
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
