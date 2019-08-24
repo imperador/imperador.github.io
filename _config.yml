@@ -91,7 +91,7 @@ scholar:
   order: descending
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template: bib
+  bibliography_template: publication
   reference_tagname: div
 
   replace_strings: true
