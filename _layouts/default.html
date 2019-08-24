@@ -66,6 +66,13 @@
     </div>
   </nav>
 
+  <!-- Scrolling Progress Bar -->
+  <progress id="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+
   <!-- Content -->
   <div class="container-fluid mt-4">
     {{ content }}
@@ -100,6 +107,49 @@
         githubStars("{{ project.github }}", function(stars) { $("#{{ github_id }}-stars").text('' + stars); });
       {% endif %}
     {% endfor %}
+  </script>
+
+  <!-- Scrolling Progress Bar -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var getMax = function() { return $(document).height() - $(window).height(); }
+      var getValue = function() { return $(window).scrollTop(); }   
+      // Check if the browser supports the progress element.
+      if ('max' in document.createElement('progress')) {
+        var progressBar = $('#progress');
+
+        // Set the 'max' attribute for the first time.
+        progressBar.attr({ max: getMax() });
+    
+        $(document).on('scroll', function() {
+          // On scroll only the 'value' attribute needs to be calculated.
+          progressBar.attr({ value: getValue() });
+        });
+          
+        $(window).resize(function() {
+          // On resize, both the 'max' and 'value' attributes need to be calculated.
+          progressBar.attr({ max: getMax(), value: getValue() });
+        }); 
+      } else {
+        var progressBar = $('#progress'),
+            max = getMax(),
+            value, width;
+        var getWidth = function() {
+          // Calculate the window width as a percentage.
+          value = getValue();            
+          width = (value/max) * 100;
+          width = width + '%';
+          return width;
+        }            
+        var setWidth = function() { progressBar.css({ width: getWidth() }); }            
+        $(document).on('scroll', setWidth);
+        $(window).on('resize', function(){
+          // Need to reset the 'max' attribute.
+          max = getMax();
+          setWidth();
+        });
+      }
+    });
   </script>
 
   <!-- Code Syntax Highlighting -->
