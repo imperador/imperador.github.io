@@ -1,9 +1,10 @@
 ---
 layout: project
 title: TensorFlow Scala
+nav: projects
 description: type-safe linear algebra, tensors, and neural networks
 img: /assets/img/tensorflow_for_scala_logo.svg
-github: https://github.com/eaplatanios/tensorflow_scala
+github: eaplatanios/tensorflow_scala
 ---
 
 This library is a Scala API for [https://www.tensorflow.org](https://www.tensorflow.org). It attempts to provide most of 
@@ -114,7 +115,8 @@ are a few useful links:
 - Efficient interaction with the native library that avoids unnecessary copying of data. All tensors are created and 
   managed by the native TensorFlow library. When they are passed to the Scala API (e.g., fetched from a TensorFlow 
   session), we use a combination of weak references and a disposing thread running in the background. Please refer to 
-  `tensorflow/src/main/scala/org/platanios/tensorflow/api/utilities/Disposer.scala`, for the implementation.
+  [`Disposer.scala`](https://github.com/eaplatanios/tensorflow_scala/blob/master/modules/api/src/main/scala/org/platanios/tensorflow/api/utilities/Disposer.scala),
+  for the implementation.
 
 ## Funding
 

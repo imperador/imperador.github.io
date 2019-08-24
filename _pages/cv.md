@@ -2,6 +2,7 @@
 layout: page
 permalink: /cv/
 title: cv
+nav: cv
 ---
 
 <!-- Place PDF download link at the top right. -->

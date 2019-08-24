@@ -3,6 +3,7 @@ layout: about
 permalink: /
 
 title: about
+nav: about
 profile:
   align: right
   image: prof_pic.jpg

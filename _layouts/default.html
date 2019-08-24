@@ -11,7 +11,6 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
 
   <!-- CSS Files -->
-  <link rel="stylesheet" href="{{ '/assets/css/font-awesome.min.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | prepend: site.baseurl | prepend: site.url }}">
@@ -30,10 +29,10 @@
           <span class="contact-icon text-center" style="margin-top: -0.2em; margin-bottom: -0.2em;">
             <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square gm-icon"></i></a>
             <a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>
-            <a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fa fa-github-square gh-icon"></i></a>
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square li-icon"></i></a>
-            <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Facebook"><i class="fa fa-facebook-square fb-icon"></i></a>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fa fa-twitter-square tw-icon"></i></a>
+            <a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github-square gh-icon"></i></a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin li-icon"></i></a>
+            <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Facebook"><i class="fab fa-facebook-square fb-icon"></i></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter-square tw-icon"></i></a>
           </span>
         </div>
       {% endif %}
@@ -52,10 +51,10 @@
           </li>
           {% for p in site.pages %}
             {% if p.title and p.url != "/" %}
-              <li class="nav-item {% if page.title == p.title %}navbar-active font-weight-bold{% endif %}">
+              <li class="nav-item {% if page.nav == p.nav %}navbar-active font-weight-bold{% endif %}">
                   <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">
                     {{ p.title }}
-                    {% if page.title == p.title %}
+                    {% if page.nav == p.nav %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
@@ -88,7 +87,20 @@
   <script src="{{ 'popper.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
   <script src="{{ 'bootstrap.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
   <script src="{{ 'mdb.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
+  <script src="https://kit.fontawesome.com/dee01dd96f.js"></script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
   <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+  <!-- GitHub Stars -->
+  <script src="{{ '/assets/js/github-stars.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script type="text/javascript">
+    {% for project in site.projects %}
+      {% if project.github %}
+        {% assign github_id = project.title | append: project.github | replace: '/', '-' | replace: ' ', '-' %}
+        githubStars("{{ project.github }}", function(stars) { $("#{{ github_id }}-stars").text('' + stars); });
+      {% endif %}
+    {% endfor %}
+  </script>
 
   <!-- Code Syntax Highlighting -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
@@ -112,6 +124,13 @@
     };
 
     $("#projects").shuffleChildren();
+  </script>
+
+  <!-- Enable Tooltips -->
+  <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
 
   <!-- Google Analytics -->

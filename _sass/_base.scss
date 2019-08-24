@@ -33,6 +33,13 @@ $theme-color: #b71c1c;
 
 /************************************************************/
 
+.badge-notify {
+    background: $theme-color !important;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+
 body {
     // Add some padding for the nav-bar.
     padding-top: 56px;
@@ -107,6 +114,10 @@ footer {
 
 .title {
     font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.tiny {
+    font-size: 14px;
 }
 
 // This is used to remove the top border in the lists of the "teaching" page.
@@ -261,6 +272,24 @@ a {
 
     &:hover {
         background: lighten(rgb(29, 161, 242), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.wp-icon {
+    color: rgb(33, 117, 155);
+    background: rgb(33, 117, 155);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        color: lighten(rgb(33, 117, 155), 20%);
+        background: lighten(rgb(33, 117, 155), 20%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

@@ -1,6 +1,7 @@
 ---
 layout: project
-title: estimating accuracy
+title: estimating accuracy from unlabeled data
+nav: projects
 description: estimating accuracies of classifiers using only unlabeled data
 img: /assets/img/accuracy_estimation_logo.svg
 # github: https://github.com/eaplatanios/makina
