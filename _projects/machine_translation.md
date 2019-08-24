@@ -2,6 +2,7 @@
 layout: project
 title: machine translation
 nav: projects
+importance: 100
 description: enhacing machine translation using contextual parameter generation and curriculum learning
 img: /assets/img/projects/machine_translation/machine_translation.svg
 github: eaplatanios/symphony-mt
@@ -15,7 +16,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 </div>
 
 <div class="container-fluid">
-  <img class="img-responsive" style="width: 100%;" src="{{ '/assets/img/contextual_parameter_generation.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+  <img class="img-responsive col-12" src="{{ '/assets/img/contextual_parameter_generation.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
   <h6 class="font-italic text-center" style="color: #78909c;"><u>Figure 1:</u> Overview of the contextual parameter generator that is introduced in this post. The top part of the figure shows a typical neural machine translation system (consisting of an encoder and a decoder network). The bottom part, shown in red, shows our parameter generator component.</h6>
 </div>
 
@@ -24,7 +25,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 </div>
 
 <div class="container-fluid text-center mt-4">
-  <img class="img-responsive" style="width: 50%;" src="{{ '/assets/img/projects/machine_translation/1_mt.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+  <img class="img-responsive col-12 col-sm-10 col-md-6 ml-auto mr-auto" src="{{ '/assets/img/projects/machine_translation/1_mt.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
   <h6 class="font-italic text-center mt-2" style="color: #78909c;"><u>Figure 2:</u> Illustration of the machine translation problem.</h6>
 </div>
 
@@ -146,7 +147,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
   We present results from experiments on two datasets in our <a href="http://aclweb.org/anthology/D18-1039" target="_blank">paper</a>, but here we highlight some of the most interesting ones. In the following table we compare CPG to using the pairwise NMT models approach, as well as the universal one (using Google's multilingual NMT system). Below are results for the <a href="https://sites.google.com/site/iwsltevaluation2015/mt-track" target="_blank">IWSLT-15 dataset</a>, a commonly used small dataset in NMT community.
 </div>
 
-<table class="table col-6 ml-auto mr-auto">
+<table class="table col-12 col-sm-10 col-md-6 ml-auto mr-auto">
   <thead>
     <tr>
       <th scope="col"></th>
@@ -234,7 +235,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 </div>
 
 <div class="container-fluid text-center mt-4">
-  <img class="img-responsive" style="width: 50%;" src="{{ '/assets/img/projects/machine_translation/6_languages.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+  <img class="img-responsive col-12 col-sm-10 col-md-6 ml-auto mr-auto" src="{{ '/assets/img/projects/machine_translation/6_languages.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
   <h6 class="font-italic text-center mt-2" style="color: #78909c;"><u>Figure 6:</u> <a href="http://cosine%20distance" target="_blank">Cosine distance</a> between all pairs of the language embeddings learned using our contextual parameter generator. Note that the cosine distance values can range between 0 and 2.</h6>
 </div>
 

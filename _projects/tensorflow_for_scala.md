@@ -2,6 +2,7 @@
 layout: project
 title: TensorFlow Scala
 nav: projects
+importance: 75
 description: type-safe linear algebra, tensors, and neural networks
 img: /assets/img/tensorflow_for_scala_logo.svg
 github: eaplatanios/tensorflow_scala
