@@ -20,13 +20,13 @@
 </head>
 <body>
   <!-- Header -->
-  <nav class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
+  <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
       {% if page.title != "about" %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">Anthony</span> Platanios</a>
       {% else %}
         <div class="row ml-1 ml-sm-0">
-          <span class="contact-icon text-center" style="margin-top: -0.2em; margin-bottom: -0.2em;">
+          <span class="contact-icon text-center" style="line-height: 1em;">
             <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square gm-icon"></i></a>
             <a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>
             <a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github-square gh-icon"></i></a>
@@ -112,38 +112,45 @@
   <!-- Scrolling Progress Bar -->
   <script type="text/javascript">
     $(document).ready(function() {
+      var navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      var progressBar = $('#progress');
+      progressBar.css({ 'top': navbarHeight });
       var getMax = function() { return $(document).height() - $(window).height(); }
       var getValue = function() { return $(window).scrollTop(); }   
       // Check if the browser supports the progress element.
       if ('max' in document.createElement('progress')) {
-        var progressBar = $('#progress');
-
         // Set the 'max' attribute for the first time.
         progressBar.attr({ max: getMax() });
+        progressBar.attr({ value: getValue() });
     
         $(document).on('scroll', function() {
           // On scroll only the 'value' attribute needs to be calculated.
           progressBar.attr({ value: getValue() });
         });
-          
+
         $(window).resize(function() {
+          var navbarHeight = $('#navbar').outerHeight(true);
+          $('body').css({ 'padding-top': navbarHeight });
+          $('progress-container').css({ 'padding-top': navbarHeight });
+          progressBar.css({ 'top': navbarHeight });
           // On resize, both the 'max' and 'value' attributes need to be calculated.
           progressBar.attr({ max: getMax(), value: getValue() });
-        }); 
+        });
       } else {
-        var progressBar = $('#progress'),
-            max = getMax(),
-            value, width;
+        var max = getMax(), value, width;
         var getWidth = function() {
           // Calculate the window width as a percentage.
-          value = getValue();            
+          value = getValue();
           width = (value/max) * 100;
           width = width + '%';
           return width;
-        }            
-        var setWidth = function() { progressBar.css({ width: getWidth() }); }            
+        }
+        var setWidth = function() { progressBar.css({ width: getWidth() }); };
+        setWidth();
         $(document).on('scroll', setWidth);
-        $(window).on('resize', function(){
+        $(window).on('resize', function() {
           // Need to reset the 'max' attribute.
           max = getMax();
           setWidth();
