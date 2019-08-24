@@ -6,7 +6,7 @@ permalink: /projects/
 description: some of the projects I have worked on
 ---
 
-<div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;" data-masonry='{"percentPosition": true }'>
+<div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
   {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
     <div class="col-12 col-sm-6 col-md-4">

@@ -93,6 +93,7 @@
   <script src="{{ 'mdb.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
   <script src="https://kit.fontawesome.com/dee01dd96f.js"></script>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
   <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
@@ -177,9 +178,24 @@
         $find.appendTo($el);
       });
     };
-
     $("#projects").shuffleChildren();
   </script> -->
+
+  <!-- Project Cards Layout -->
+  <script type="text/javascript">
+    var $grid = $('#projects');
+
+    grid.masonry({
+      itemSelector: '.card',
+      columnWidth: '.card',
+      percentPosition: true
+    });
+
+    // Trigger after images load.
+    $grid.imagesLoaded().progress(function() {
+      $grid.masonry();
+    });
+  </script>
 
   <!-- Enable Tooltips -->
   <script type="text/javascript">
