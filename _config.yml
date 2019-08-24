@@ -56,7 +56,7 @@ google_analytics: UA-54519238-1
 collections:
   news:
     defaults:
-      layout: post
+      layout: page
     output: true
     permalink: /news/:path/
   projects:
