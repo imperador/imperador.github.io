@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
 
   <!-- CSS Files -->
+  <link rel="stylesheet" href="{{ '/assets/css/all.min.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -91,7 +92,6 @@
   <script src="{{ 'popper.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
   <script src="{{ 'bootstrap.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
   <script src="{{ 'mdb.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="https://kit.fontawesome.com/dee01dd96f.js"></script>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
@@ -185,15 +185,13 @@
   <script type="text/javascript">
     var $grid = $('#projects');
 
-    grid.masonry({
-      itemSelector: '.card',
-      columnWidth: '.card',
-      percentPosition: true
-    });
+    // $grid.masonry({ percentPosition: true });
+    // $grid.masonry('layout');
 
     // Trigger after images load.
     $grid.imagesLoaded().progress(function() {
-      $grid.masonry();
+      $grid.masonry({ percentPosition: true });
+      $grid.masonry('layout');
     });
   </script>
 
