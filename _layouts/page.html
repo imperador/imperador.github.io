@@ -2,34 +2,9 @@
 layout: default
 ---
 
-<div class="post">
-  {% if page.title != "about" %}
-    <h1>{{ page.title }}</h1>
-    <h5>{{ page.description }}</h5>
-  {% endif %}
+{% if page.title != "about" %}
+  <h1>{{ page.title }}</h1>
+  <h5>{{ page.description }}</h5>
+{% endif %}
 
-  {{ content }}
-
-  {% if page.news and site.news %}
-    <div class="news">
-      <h1 class="title">news</h1>
-      {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
-        <div class="row">
-          <div class="col-sm-2">
-            <span class="badge font-weight-bold peach-gradient text-uppercase align-middle date">
-              {{ item.date | date: "%b %-d, %Y" }}
-            </span>
-          </div>
-          <div class="col-sm-10 mt-2 mt-sm-0 font-weight-light text">
-            {% if item.inline %}
-              <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
-            {% else %}
-              <a href="{{ item.url | prepend: site.baseurl }}" target="_blank">{{ item.title }}</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  {% endif %}
-</div>
+{{ content }}

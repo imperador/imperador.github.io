@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: never-ending learning
 description: extracting a knowledge-base from the web, while constantly improving at it
 img: /assets/img/nell/nell_logo.svg

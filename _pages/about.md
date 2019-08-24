@@ -14,6 +14,4 @@ I am a PhD student in the [Machine Learning Department](http://www.ml.cmu.edu/){
 
 Previously, I did some research around the idea of self-reflection in the context of machine learning. More specifically, I developed a framework that allowed learning systems that leverage several different learning mechanisms (i.e. algorithms) to “understand” how well each one of those mechanisms performs in different domains (also related to the notion of truth mentioned in the previous paragraph). It also allow edthem to improve their learning rate by taking advantage of the “expertise” of each learning mechanism and by directing each such mechanism to learn more efficiently.
 
-Before I joined CMU, I graduated with an M.Eng. in [Electrical and Electronic Engineering](http://www.imperial.ac.uk/electrical-engineering){:target="_blank"} from [Imperial College London](https://www.imperial.ac.uk/){:target="_blank"}. For my Master's thesis I proposed a way to use topic modelling methods in order to perform human motion classification. 
-
-I am from Athens, Greece!
+Before I joined CMU, I graduated with an M.Eng. in [Electrical and Electronic Engineering](http://www.imperial.ac.uk/electrical-engineering){:target="_blank"} from [Imperial College London](https://www.imperial.ac.uk/){:target="_blank"}. For my Master's thesis I proposed a way to use topic modelling methods in order to perform human motion classification.

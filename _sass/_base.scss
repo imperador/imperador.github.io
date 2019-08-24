@@ -1,6 +1,6 @@
 
 /** Variables **********************************************/
-$max-page-width: 800px;
+$max-page-width: 850px;
 $base-font-family:              Helvetica, sans-serif;
 $base-font-size:                15px;
 $base-line-height:              1.5em;
@@ -12,7 +12,7 @@ $nav-height:                    56px;
 $img_spacing: 5px;
 $img_height: 275px;
 $caption_font_size: 12px;
-$caption_color: #aaa;
+$caption_color: #3e4551;
 
 /* COLORS  */
 $red:           #FF3636;
@@ -26,12 +26,10 @@ $brown_orange:  #C68646;
 
 $grey-color-dark:   #333;  /* footer */
 $grey-color-light:  #ddd;  /* navigation bar border */
-$text-color:        #666;
+$text-color:        rgb(60, 72, 88);
 
 /* Set theme color *************************/
-$theme-color: rgb(238, 83, 0);
-$gradient-color: linear-gradient(40deg, rgb(255, 216, 111), rgb(252, 98, 98));
-$dark-gradient-color: linear-gradient(40deg, darken(rgb(255, 216, 111), 30%), darken(rgb(252, 98, 98), 30%));
+$theme-color: #b71c1c;
 
 /************************************************************/
 
@@ -45,6 +43,15 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+.breadcrumb {
+    color: $text-color;
+    background-color: $background-color;
+}
+
+.table {
+    color: $text-color;
+}
+
 .navbar {
     margin-right: auto;
     margin-left: auto;
@@ -55,6 +62,10 @@ body {
         margin-left: auto;
         max-width: $max-page-width;
     }
+}
+
+.navbar a {
+    color: $text-color !important;
 }
 
 footer {
@@ -103,6 +114,10 @@ footer {
     border-top: 0;
 }
 
+.card-body {
+    background-color: #fdfdfd;
+}
+
 // Links
 
 a {
@@ -114,23 +129,158 @@ a {
     }
 }
 
+.plain-link .fa {
+    color: #747373;
+}
+
 .navbar-brand a {
     color: #f8f9fa !important;
 }
 
-.contacticon .fa, .contacticon .ai {
-    background: $gradient-color;
+.navbar-active a {
+    color: $theme-color !important;
+}
+
+.contact-icon {
+    display: block;
+    font-size: 35px;
+}
+
+.project-icon {
+    display: block;
+    font-size: 40px;
+    margin-bottom: -0.3em;
+}
+
+.arrow-icon {
+    color: #90a4ae;
+    background: #90a4ae;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: initial;
 
     &:hover {
-        background: $theme-color;
+        color: lighten(#90a4ae, 20%);
+        background: lighten(#90a4ae, 20%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-decoration: none;
+    }
+}
+
+.gm-icon {
+    background: rgb(200, 78, 63);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(200, 78, 63), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.gs-icon {
+    background: rgb(80, 134, 236);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(80, 134, 236), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.gh-icon {
+    color: rgb(37, 41, 46);
+    background: rgb(37, 41, 46);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        color: lighten(rgb(37, 41, 46), 20%);
+        background: lighten(rgb(37, 41, 46), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.li-icon {
+    background: rgb(14, 118, 168);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(14, 118, 168), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.fb-icon {
+    background: rgb(59, 89, 152);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(59, 89, 152), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.tw-icon {
+    background: rgb(29, 161, 242);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(29, 161, 242), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.card-columns {
+    column-count: 1;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
     }
 }
 
@@ -142,7 +292,7 @@ a {
     width: 60px;
 
     &:hover {
-        background: $dark-gradient-color !important;
+        background: #ff4444 !important;
     }
 }
 

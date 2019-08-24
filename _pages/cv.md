@@ -24,12 +24,12 @@ title: cv
 				</ul>
 			{% elsif entry.type == "map" %}
 				<table class="table table-sm table-borderless">
-				{% for content in entry.contents %}
-					<tr>
-						<td class="p-0 pr-2 font-weight-bold text-right"><b>{{ content.name }}</b></td>
-						<td class="p-0 pl-2 font-weight-light text-left">{{ content.value }}</td>
-					</tr>
-				{% endfor %}
+					{% for content in entry.contents %}
+						<tr>
+							<td class="p-0 pr-2 font-weight-bold text-right"><b>{{ content.name }}</b></td>
+							<td class="p-0 pl-2 font-weight-light text-left">{{ content.value }}</td>
+						</tr>
+					{% endfor %}
 				</table>
 			{% elsif entry.type == "nested_list" %}
 				<ul class="card-text font-weight-light list-group list-group-flush">
@@ -53,14 +53,14 @@ title: cv
 						<div class="row">
 							{% if content.year %}
 								<div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 75px;">
-									<span class="badge font-weight-bold peach-gradient text-uppercase align-middle" style="width: 75px;">
+									<span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="width: 75px;">
 										{{ content.year }}
 									</span>
 								</div>
 							{% endif %}
 							<div class="col-xs-10 cl-sm-10 col-md mt-2 mt-md-0">
 								{% if content.title %}
-								<h6 class="title ml-1 ml-md-4">{{content.title}}</h6>
+								<h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
 								{% endif %}
 								{% if content.description %}
 									<ul class="items">

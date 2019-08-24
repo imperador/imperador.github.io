@@ -76,11 +76,11 @@ markdown: kramdown
 # Includes
 include: ['_pages']
 
-# Gems
-gems:
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll/scholar
+  - jemoji
 
 # Jekyll-Scholar
 scholar:

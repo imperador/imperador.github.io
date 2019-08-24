@@ -10,12 +10,12 @@ layout: page
 
 <div class="col mt-4">
   <h1 class="title text-center font-weight-bold">Anthony Platanios</h1>
-  <div class="row">
+  <div class="row mt-3 mb-3">
     <div class="col-sm-6">
       <h6 class="mt-1 text-left text-sm-right" style="font-stretch: ultra-condensed;">
-        <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a><br/>
-        <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a><br/>
-        <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>
+        <a style="color: rgb(60, 72, 88);" href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a><br/>
+        <a style="color: rgb(60, 72, 88);" href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a><br/>
+        <a style="color: rgb(60, 72, 88);" href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>
       </h6>
     </div>
     <div class="col-sm-6">
@@ -28,17 +28,29 @@ layout: page
   </div>
 </div>
 
-<div class="col" style="margin-top: -0.5em;">
-  <span class="contacticon text-center mt-2">
-    <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square"></i></a>
-    <a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
-    <a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fa fa-github-square"></i></a>
-    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
-    <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Facebook"><i class="fa fa-facebook-square"></i></a>
-    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fa fa-twitter-square"></i></a>
-  </span>
-</div>
-
+<!-- Introductory Paragraph -->
 <div class="col">
   {{ content }}
+</div>
+
+<!-- News -->
+<div class="news">
+  <h1 class="title mb-4">news</h1>
+  {% assign news = site.news | reverse %}
+  {% for item in news limit: site.news_limit %}
+    <div class="row">
+      <div class="col-sm-2">
+        <span class="badge danger-color-dark font-weight-bold text-uppercase align-middle date ml-3">
+          {{ item.date | date: "%b %-d, %Y" }}
+        </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 font-weight-light text">
+        {% if item.inline %}
+          <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
+        {% else %}
+          <a href="{{ item.url | prepend: site.baseurl }}" target="_blank">{{ item.title }}</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
 </div>

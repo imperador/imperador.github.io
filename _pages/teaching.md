@@ -14,7 +14,7 @@ description: classes, workshops, and teaching material
         <h5 class="font-weight-bold">Introduction to Machine Learning</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold peach-gradient text-uppercase align-middle">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
             10-701
         </span>
       </div>
@@ -37,7 +37,7 @@ description: classes, workshops, and teaching material
         <h5 class="font-weight-bold">Introduction to Machine Learning</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold peach-gradient text-uppercase align-middle">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
             10-701
         </span>
       </div>

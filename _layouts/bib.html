@@ -5,11 +5,11 @@
   <div class="col-sm-1 bib-abbr">
     {% if entry.abbr %}
       {% if site.data.venues[entry.abbr] %}
-        <a class="badge font-weight-bold peach-gradient text-uppercase align-middle" href="{{site.data.venues[entry.abbr].url}}" target="_blank">
+        <a class="badge font-weight-bold danger-color-dark text-uppercase align-middle" href="{{site.data.venues[entry.abbr].url}}" target="_blank">
           {{entry.abbr}}
         </a>
       {% else %}
-        <span class="badge font-weight-bold peach-gradient text-uppercase align-middle">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
           {{entry.abbr}}
         </span>
       {% endif %}
