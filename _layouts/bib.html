@@ -1,8 +1,8 @@
 ---
 ---
 
-<div class="row">
-  <div class="col-sm-1 bib-abbr">
+<div class="row m-0 mt-3 p-0">
+  <div class="col-sm-1 p-0 bib-abbr">
     {% if entry.abbr %}
       {% if site.data.venues[entry.abbr] %}
         <a class="badge font-weight-bold danger-color-dark text-uppercase align-middle" href="{{site.data.venues[entry.abbr].url}}" target="_blank">
@@ -15,9 +15,9 @@
       {% endif %}
     {% endif %}
   </div>
-  <div class="col-sm-11 mt-2 mt-sm-0">
+  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-2 pr-2">
     {% assign entry_id = entry.key | replace: ':', '-' %}
-    <div id="{{entry_id}}" class="col ml-0 ml-sm-3">
+    <div id="{{entry_id}}" class="col p-0">
       <h5 class="title mb-0">{{entry.title}}.</h5>
       <div class="author">
         {% for author in entry.author_array %}
@@ -110,7 +110,7 @@
       {% if entry.abstract %}
       <div class="col mt-2 p-0">
         <div id="{{entry_id}}-abstract" class="collapse">
-          <div class="abstract card card-body font-weight-light p-3">
+          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
             {{ entry.abstract }}
           </div>
         </div>
