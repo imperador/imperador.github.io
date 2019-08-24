@@ -5,10 +5,8 @@ permalink: /projects/
 description: some of the projects I have worked on
 ---
 
-<div class="card-columns mt-2 mr-4 pt-3" style="overflow: visible !important;">
-  {% assign project_count = site.projects | size %}
-  {% assign shuffled_projects = site.projects | sample: project_count %}
-  {% for project in shuffled_projects %}
+<div id="projects" class="card-columns mt-2 mr-4 pt-3" style="overflow: visible !important;">
+  {% for project in site.projects %}
     {% if project.redirect %}
       <a href="{{ project.redirect }}" target="_blank">
     {% else %}
