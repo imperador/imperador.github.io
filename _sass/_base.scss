@@ -1,6 +1,5 @@
 
-/** Variables **********************************************/
-$max-page-width: 800px;
+/** Variables **********************************************
 $base-font-family:              Helvetica, sans-serif;
 $base-font-size:                15px;
 $base-line-height:              1.5em;
@@ -30,21 +29,15 @@ $text-color:        rgb(60, 72, 88);
 
 /* Set theme color *************************/
 $theme-color: #b71c1c;
+$background-color: #fdfdfd;
 
 /************************************************************/
 
 .badge-notify {
     background: $theme-color !important;
-    position: relative;
-    top: -50px;
-    left: 20px;
 }
 
 body {
-    // Add some padding for the nav-bar.
-    padding-top: 56px;
-    padding-bottom: 70px;
-
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -59,46 +52,13 @@ body {
     color: $text-color;
 }
 
-.navbar {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 100%;
-
-    .container {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: $max-page-width;
-    }
-}
-
 .navbar a {
     color: $text-color !important;
 }
 
 footer {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 100%;
-
-    div {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: $max-page-width;
-    }
-
-    font-size: 72%;
-    padding: 2px;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-  
-    p {
-        margin-bottom: 0;
-    }
-
     a {
-        color: #fff;
+        color: $grey-lighten-5;
     }
 
     a:hover {
@@ -106,27 +66,8 @@ footer {
     }
 }
 
-.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: $max-page-width;
-}
-
 .title {
     font-family: "Roboto Slab", "Times New Roman", serif;
-}
-
-.tiny {
-    font-size: 14px;
-}
-
-// This is used to remove the top border in the lists of the "teaching" page.
-.list-group-flush .list-group-item:first-child {
-    border-top: 0;
-}
-
-.card-body {
-    background-color: #fdfdfd;
 }
 
 // Links
@@ -150,17 +91,6 @@ a {
 
 .navbar-active a {
     color: $theme-color !important;
-}
-
-.contact-icon {
-    display: block;
-    font-size: 35px;
-}
-
-.project-icon {
-    display: block;
-    font-size: 40px;
-    margin-bottom: -0.3em;
 }
 
 .arrow-icon {
@@ -297,49 +227,17 @@ a {
     }
 }
 
-.card-columns {
-    column-count: 1;
-}
-
-@media (min-width: 576px) {
-    .card-columns {
-        column-count: 2;
-    }
-}
-
-@media (min-width: 768px) {
-    .card-columns {
-        column-count: 3;
-    }
-}
-
 .cv h3 {
     color: $theme-color;
 }
 
-.bib-abbr a {
-    width: 60px;
-
+.bibliography .abbr a {
     &:hover {
         background: #ff4444 !important;
     }
 }
 
-.bib-abbr span {
-    width: 65px;
-}
-
 progress {
-    /* Positioning */
-    position: fixed;
-    left: 0;
-    top: 56px;
-    z-index: 10;
-  
-    /* Dimensions */
-    width: 100%;
-    height: 5px;
-  
     /* Reset the appearance */
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -368,18 +266,42 @@ progress::-moz-progress-bar {
 }
 
 .progress-container {
-    width: 100%;
     background-color: transparent;
-    position: fixed;
-    top: 56px;
-    left: 0;
-    height: 5px;
-    display: block;
 }
 
 .progress-bar {
     background-color: $theme-color;
-    width: 0%;
-    display: block;
-    height: inherit;
+}
+
+// Publications
+
+.bibliography-year {
+    color: #ddd;
+    text-align: right;
+}
+
+.bibliography {
+    li {
+        .title {
+            font-weight: bolder;
+        }
+
+        .author {
+            a {
+                color: $text-color;
+                border-bottom: 1px dashed;
+
+                &:hover {
+                border-bottom-style: solid;
+                text-decoration: none;
+                }
+            }
+
+            nobr > em {
+                font-weight: bold;
+                font-style: normal;
+                color: $theme-color;
+            }
+        }
+    }
 }

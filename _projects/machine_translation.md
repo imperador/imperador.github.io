@@ -261,7 +261,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 
 <h3 class="title mt-4 p-0 text-left">References</h3>
 
-<div class="col mt-4 p-0 tiny" style="color: #78909c;">
+<div class="col mt-4 p-0" style="color: #78909c; font-size: 14px;">
   Emmanouil Antonios Platanios, Mrinmaya Sachan, Graham Neubig, and Tom Mitchell. 2018. <a href="http://aclweb.org/anthology/D18-1039" target="_blank"><i>Contextual Parameter Generation for Universal Neural Machine Translation</i></a>. In Conference on Empirical Methods in Natural Language Processing (EMNLP), Brussels, Belgium.
   <br/><br/>
   Orhan Firat, Kyunghyun Cho, and Yoshua Bengio. 2016a. <a href="http://www.aclweb.org/anthology/N16-1101" target="_blank"><i>Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism</i></a>. In Proceedings of NAACL-HLT, pages 866–875.

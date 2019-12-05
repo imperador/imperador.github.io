@@ -6,7 +6,7 @@ nav: about
 ---
 
 <div class="text-center mt-5">
-  <img class="img-fluid rounded-circle profile-img shadow" src="{{ 'prof_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+  <img class="profile-img" src="{{ 'prof_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
 </div>
 
 <div class="col mt-4">
