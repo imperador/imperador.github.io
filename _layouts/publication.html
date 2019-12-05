@@ -5,11 +5,11 @@
   <div class="col-sm-1 p-0 abbr">
     {% if entry.abbr %}
       {% if site.data.venues[entry.abbr] %}
-        <a class="badge font-weight-bold danger-color-dark text-uppercase align-middle" href="{{site.data.venues[entry.abbr].url}}" target="_blank">
+        <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="{{site.data.venues[entry.abbr].url}}" target="_blank">
           {{entry.abbr}}
         </a>
       {% else %}
-        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+        <span class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;">
           {{entry.abbr}}
         </span>
       {% endif %}
@@ -22,7 +22,7 @@
       <div class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
-            {% if author.last == site.scholar.last_name %}
+            {% if author.last contains site.scholar.last_name %}
               <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
             {% else %}
               {% if site.data.coauthors[author.last] %}
@@ -33,7 +33,7 @@
             {% endif %}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
+              {% if author.last contains site.scholar.last_name %}
                 <nobr><em>{{author.first}} {{author.last}}</em>,</nobr>
               {% else %}
                 {% if site.data.coauthors[author.last] %}

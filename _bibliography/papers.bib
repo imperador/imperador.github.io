@@ -1,6 +1,29 @@
 ---
 ---
 
+@inproceedings{Platanios:2020:coper,
+  title         = {{Contextual Parameter Generation for Knowledge Graph Link Prediction}},
+  author        = {Emmanouil Antonios Platanios* and George Stoica* and Otilia Stretcu* and Barnab{\'a}s P{\'o}czos and Tom Mitchell},
+  booktitle     = {AAAI Conference on Artificial Intelligence},
+  abbr          = {AAAI},
+  year          = {2020},
+  abstract      = {We consider the task of knowledge graph link prediction. Given a question consisting of a source entity and a relation (e.g., Shakespeare and BornIn), the objective is to predict the most likely answer entity (e.g., England). Recent approaches tackle this problem by learning entity and relation embeddings. However, they often constrain the relationship between these embeddings to be additive (i.e., the embeddings are concatenated and then processed by a sequence of linear functions and element-wise non-linearities). We show that this type of interaction significantly limits representational power. For example, such models cannot handle cases where a different projection of the source entity is used for each relation. We propose to use contextual parameter generation to address this limitation. More specifically, we treat relations as the context in which source entities are processed to produce predictions, by using relation embeddings to generate the parameters of a model operating over source entity embeddings. This allows models to represent more complex interactions between entities and relations. We apply our method on two existing link prediction methods, including the current state-of-the-art, resulting in significant performance gains and establishing a new state-of-the-art for this task. These gains are achieved while also reducing training time by up to 28 times.},
+  pdf           = {platanios_2020_coper/paper.pdf}
+}
+
+@inproceedings{Stretcu:2019,
+  title         = {{Graph Agreement Models for Semi-Supervised Learning}},
+  author        = {Otilia Stretcu and Krishnamurthy Viswanathan and Dana Movshovitz-Attias and Emmanouil Antonios Platanios and Sujith Ravi and Andrew Tomkins},
+  booktitle     = {Neural Information Processing Systems},
+  abbr          = {NeurIPS},
+  url           = {https://papers.nips.cc/paper/9076-graph-agreement-models-for-semi-supervised-learning},
+  year          = {2019},
+  abstract      = {Graph-based algorithms are among the most successful paradigms for solving semi-supervised learning tasks. Recent work on graph convolutional networks and neural graph learning methods has successfully combined the expressiveness of neural networks with graph structures. We propose a technique that, when applied to these methods, achieves state-of-the-art results on semi-supervised learning datasets. Traditional graph-based algorithms, such as label propagation, were designed with the underlying assumption that the label of a node can be imputed from that of the neighboring nodes. However, real-world graphs are either noisy or have edges that do not correspond to label agreement. To address this, we propose Graph Agreement Models (GAM), which introduces an auxiliary model that predicts the probability of two nodes sharing the same label as a learned function of their features. The agreement model is used when training a node classification model by encouraging agreement only for the pairs of nodes it deems likely to have the same label, thus guiding its parameters to better local optima. The classification and agreement models are trained jointly in a co-training fashion. Moreover, GAM can also be applied to any semi-supervised classification problem, by inducing a graph whenever one is not provided. We demonstrate that our method achieves a relative improvement of up to 72% for various node classification models, and obtains state-of-the-art results on multiple established datasets.},
+  pdf           = {stretcu_2019_gam/paper.pdf},
+  supp          = {stretcu_2019_gam/supplementary.pdf},
+  poster        = {stretcu_2019_gam/poster.pdf}
+}
+
 @inproceedings{Platanios:2019,
   title         = {{Competence-based Curriculum Learning for Neural Machine Translation}},
   author        = {Emmanouil Antonios Platanios and Otilia Stretcu and Graham Neubig and Barnab{\'a}s P{\'o}czos and Tom Mitchell},
@@ -28,7 +51,7 @@
 }
 
 @article{Mitchell:2018:cacm,
-  author        = {Mitchell, Tom M and Cohen, William W and Hruschka Jr, Estevam R and Pratim Talukdar, Partha and Yang, Bishan and Betteridge, Justin and Carlson, Andrew and Dalvi, Bhanava and Gardner, Matt and Kisiel, Bryan and Krishnamurthy, Jayant and Lao, Ni and Mazaitis, Kathryn and Mohamed, Thahir P and Nakashole, Ndapakula and Platanios, Emmanouil A and Ritter, Alan and Samadi, Mehdi and Settles, Burr and Wang, Richard C and Wijaya, Derry and Gupta, Abhinav and Chen, Xinlei and Saparov, Abulhair and Greaves, Malcolm and Welling, Joel},
+  author        = {Mitchell, Tom M and Cohen, William W and Hruschka Jr, Estevam R and Pratim Talukdar, Partha and Yang, Bishan and Betteridge, Justin and Carlson, Andrew and Dalvi, Bhanava and Gardner, Matt and Kisiel, Bryan and Krishnamurthy, Jayant and Lao, Ni and Mazaitis, Kathryn and Mohamed, Thahir P and Nakashole, Ndapakula and Platanios, Emmanouil Antonios and Ritter, Alan and Samadi, Mehdi and Settles, Burr and Wang, Richard C and Wijaya, Derry and Gupta, Abhinav and Chen, Xinlei and Saparov, Abulhair and Greaves, Malcolm and Welling, Joel},
   title         = {{Never-Ending Learning}},
   journal       = {Communications of the ACM},
   abbr          = {CACM},
@@ -63,7 +86,7 @@
 }
 
 @eprint{Platanios:2018:deep_graphs,
-  author        = {Platanios, Emmanouil A and Smola, Alex},
+  author        = {Platanios, Emmanouil Antonios and Smola, Alex},
   title         = {{Deep Graphs}},
   archivePrefix = "arXiv",
   eprint        = {1806.01235},
@@ -76,7 +99,7 @@
 }
 
 @eprint{Platanios:2017:active_learning,
-  author        = {Platanios, Emmanouil A and Kapoor, Ashish and Horvitz, Eric},
+  author        = {Platanios, Emmanouil Antonios and Kapoor, Ashish and Horvitz, Eric},
   title         = {{Active Learning amidst Logical Knowledge}},
   archivePrefix = "arXiv",
   eprint        = {1709.08850},
@@ -89,10 +112,10 @@
 }
 
 @inproceedings{Platanios:2017:accuracy_estimation_logic,
-  author        = {Platanios, Emmanouil A and Poon, Hoifung and Horvitz, Eric and Mitchell, Tom M},
+  author        = {Platanios, Emmanouil Antonios and Poon, Hoifung and Horvitz, Eric and Mitchell, Tom M},
   title         = {{Estimating Accuracy from Unlabeled Data: A Probabilistic Logic Approach}},
   booktitle     = {Neural Information Processing Systems},
-  abbr          = {NIPS},
+  abbr          = {NeurIPS},
   year          = {2017},
   arxiv         = {1705.07086},
   pdf           = {platanios_2017_logic/paper.pdf},
@@ -102,7 +125,7 @@
 }
 
 @inproceedings{Platanios:2016ti,
-  author        = {Platanios, Emmanouil A and Dubey, Avinava and Mitchell, Tom M},
+  author        = {Platanios, Emmanouil Antonios and Dubey, Avinava and Mitchell, Tom M},
   title         = {{Estimating Accuracy from Unlabeled Data: A Bayesian Approach}},
   booktitle     = {International Conference in Machine Learning},
   abbr          = {ICML},
@@ -116,7 +139,7 @@
 }
 
 @inproceedings{Mitchell:2015wo,
-  author        = {Mitchell, Tom M and Cohen, William W and Hruschka Jr, Estevam R and Pratim Talukdar, Partha and Betteridge, Justin and Carlson, Andrew and Dalvi, Bhanava and Gardner, Matt and Kisiel, Bryan and Krishnamurthy, Jayant and Lao, Ni and Mazaitis, Kathryn and Mohamed, Thahir P and Nakashole, Ndapakula and Platanios, Emmanouil A and Ritter, Alan and Samadi, Mehdi and Settles, Burr and Wang, Richard C and Wijaya, Derry and Gupta, Abhinav and Chen, Xinlei and Saparov, Abulhair and Greaves, Malcolm and Welling, Joel},
+  author        = {Mitchell, Tom M and Cohen, William W and Hruschka Jr, Estevam R and Pratim Talukdar, Partha and Betteridge, Justin and Carlson, Andrew and Dalvi, Bhanava and Gardner, Matt and Kisiel, Bryan and Krishnamurthy, Jayant and Lao, Ni and Mazaitis, Kathryn and Mohamed, Thahir P and Nakashole, Ndapakula and Platanios, Emmanouil Antonios and Ritter, Alan and Samadi, Mehdi and Settles, Burr and Wang, Richard C and Wijaya, Derry and Gupta, Abhinav and Chen, Xinlei and Saparov, Abulhair and Greaves, Malcolm and Welling, Joel},
   title         = {{Never-Ending Learning}},
   booktitle     = {Association for the Advancement of Artificial Intelligence},
   abbr          = {AAAI},
@@ -139,7 +162,7 @@
 }
 
 @inproceedings{Platanios:2014ti,
-  author        = {Platanios, Emmanouil A and Blum, Avrim and Mitchell, Tom M},
+  author        = {Platanios, Emmanouil Antonios and Blum, Avrim and Mitchell, Tom M},
   title         = {{Estimating Accuracy from Unlabeled Data}},
   booktitle     = {Conference on Uncertainty in Artificial Intelligence},
   abbr          = {UAI},
@@ -152,7 +175,7 @@
 }
 
 @article{Platanios:2014gp,
-  author        = {Platanios, Emmanouil A and Chatzis, Sotirios P},
+  author        = {Platanios, Emmanouil Antonios and Chatzis, Sotirios P},
   title         = {{Gaussian Process-Mixture Conditional Heteroscedasticity}},
   journal       = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   abbr          = {PAMI}, 
@@ -166,10 +189,10 @@
 }
 
 @inproceedings{Platanios:2012uh,
-  author        = {Platanios, Emmanouil A and Chatzis, Sotirios P},
+  author        = {Platanios, Emmanouil Antonios and Chatzis, Sotirios P},
   title         = {{Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes for Volatility Modeling}},
   booktitle     = {Neural Information Processing Systems Workshop on Modern Nonparametric Methods in Machine Learning},
-  abbr          = {NIPS}, 
+  abbr          = {NeurIPS}, 
   year          = {2012},
   organization  = {Department of Electrical and Electronic Engineering, Imperial College London, London, United Kingdom; Department of Electrical and Computer Engineering, and Informatics, Cyprus University of Technology, Cyprus},
   address       = {Lake Tahoe, NV, United States of America},
