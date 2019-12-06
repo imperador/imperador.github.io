@@ -4,15 +4,13 @@
 
 name: Anthony Platanios
 email: e.a.platanios@gmail.com
-description: > # this means to ignore newlines until "url:"
-  My personal website.
+description: Personal website of Anthony Platanios.
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # last_updated: true
 
-url:  # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+url: platanios.org
 
 # -----------------------------------------------------------------------------
 # Social Integration
@@ -27,32 +25,9 @@ contact_note: Feel free to drop me a line via email.
 google_analytics: UA-54519238-1
 
 # -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-# blog_name: al-folio
-# blog_description: a simple whitespace theme for academics
-
-# # Pagination
-# paginate: 4
-# permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
-
-# text:
-#   pagination:
-#     newer: 'Newer'
-#     older: 'Older'
-
-# # Comments
-# disqus_shortname: al-folio # put your disqus shortname
-
-# # Optional features
-# show_social_icons:  false
-# enable_anchorjs:    false
-# enable_katex:       true
-
-# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
+
 collections:
   news:
     defaults:
@@ -73,8 +48,9 @@ news_limit: 10
 markdown: kramdown
 # highlighter: pygments
 
-# Includes
+# Include/Exclude
 include: ['_pages']
+exclude: [node_modules]
 
 # Plugins
 plugins:
@@ -106,6 +82,7 @@ scholar:
 # -----------------------------------------------------------------------------
 # Other settings
 # -----------------------------------------------------------------------------
+
 jquery_version: "1.12.4"
 katex_version: "0.7.1"
 anchorjs_version: "3.2.2"
