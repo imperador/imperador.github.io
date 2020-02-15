@@ -13,7 +13,7 @@
 - title: Research Areas
   type: list
   contents:
-    - Machine learning and artificial intelligence with a focus on neural cognitive architectures and applications of AI and ML to natural language processing, robotics, computer vision and finance.
+    - Machine learning and artificial intelligence with a focus on learning collections of functions, neural cognitive architectures, and applications of AI and ML to natural language processing, robotics, computer vision and finance.
 
 - title: Education
   type: table
@@ -25,6 +25,7 @@
         - '<u>GPA:</u> <b>4.18</b> (4.0 scale).'
         - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>.'
         - 'I work on the <a href="http://rtw.ml.cmu.edu/" target="_blank"><b>Never Ending Language Learning (NELL)</b></a> project.'
+        - 'My thesis work is on <b>Learning Collections of Functions</b>.'
         - title: 'I do research on topics related to <b>self-reflection in machine learning</b>:'
           contents:
             - I have developed multiple methods for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, that I have presented at Uncertainty in Artificial Intelligence (<b>UAI</b>) in 2014, International Conference in Machine Learning (<b>ICML</b>) in 2016, and at Neural Information Processing Systems (<b>NIPS</b>) in 2017.
@@ -56,7 +57,7 @@
 - title: Work Experience
   type: table
   contents:
-    - title: 'Research Consultant at Cubist Systematic Strategies.'
+    - title: 'Research Analyst Consultant at Cubist Systematic Strategies.'
       year: 2016-17
       description:
         - Worked for the Advanced Methods Groups (AMG) in new machine learning-driven approaches for end-to-end algorithmic trading systems.
@@ -177,7 +178,7 @@
   type: nested_list
   contents:
     - title: 'Program Committees'
-      items: 'EMNLP (2019), ICML (2019), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), IEEE-TPAMI (2017), NIPS-AKBC (2016).'
+      items: 'ACL (2020), ICML (2019), NeurIPS (2018-19), EMNLP (2018-19), PLOS-ONE (2018-19), IEEE-TPAMI (2018), and NIPS-AKBC (2016).'
     - title: 'Conference Workshops Organized'
       items:
         - '2019: ICML Adaptive & Multi-Task Learning.'
@@ -185,6 +186,7 @@
         - '2017: NIPS Learning with Limited Labeled Data.'
     - title: 'University Committees'
       items:
+        - '2018-19: CMU AI+ Club co-founder and leadership team member.'
         - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
         - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
         - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
@@ -203,6 +205,10 @@
 - title: Major Talks
   type: table
   contents:
+    - title: '<i>Competence-based Curriculum Learning for Neural Machine Translation</i>.'
+      year: 2019
+      description:
+        - 'North American Chapter of the Association for Computational Linguistics (<b>NAACL</b>) conference.'
     - title: '<i>TensorFlow Scala</i>.'
       year: 2018
       description:
@@ -239,7 +245,7 @@
 - title: Software Development Skills
   type: list
   contents:
-    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~800 stars from open-source projects).'
+    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~900 stars from open-source projects).'
     - '<u>Machine Learning Frameworks:</u> <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>, <a href="https://pytorch.org/" target="_blank">PyTorch</a>.'
     - '<u>High Level Programming Languages:</u> Swift, Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
     - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'
