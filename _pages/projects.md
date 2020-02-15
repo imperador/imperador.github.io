@@ -13,10 +13,10 @@ description: some of the projects I have worked on
       {% if project.redirect %}
         <a href="{{ project.redirect }}" target="_blank">
       {% else %}
-        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+        <a href="{{ project.url | prepend: site.baseurl }}">
       {% endif %}
         <div class="card">
-          <img class="card-img-top" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}" alt="project thumbnail">
+          <img class="card-img-top" src="{{ project.img | prepend: site.baseurl }}" alt="project thumbnail">
           <div class="card-body">
             <h5 class="card-title text-lowercase">{{ project.title }}</h5>
             <p class="card-text">{{ project.description }}</p>

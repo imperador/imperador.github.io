@@ -16,7 +16,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 </div>
 
 <div class="container-fluid p-0">
-  <img class="img-responsive col-12" src="{{ '/assets/img/contextual_parameter_generation.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+  <img class="img-responsive col-12" src="{{ '/assets/img/contextual_parameter_generation.svg' | prepend: site.baseurl }}" alt="overview figure">
   <h6 class="font-italic text-center" style="color: #78909c;"><u>Figure 1:</u> Overview of the contextual parameter generator that is introduced in this post. The top part of the figure shows a typical neural machine translation system (consisting of an encoder and a decoder network). The bottom part, shown in red, shows our parameter generator component.</h6>
 </div>
 
@@ -25,7 +25,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 </div>
 
 <div class="container-fluid text-center mt-4 p-0">
-  <img class="img-responsive col-12 col-sm-10 col-md-6 ml-auto mr-auto" src="{{ '/assets/img/projects/machine_translation/1_mt.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+  <img class="img-responsive col-12 col-sm-10 col-md-6 ml-auto mr-auto" src="{{ '/assets/img/projects/machine_translation/1_mt.svg' | prepend: site.baseurl }}" alt="overview figure">
   <h6 class="font-italic text-center mt-2" style="color: #78909c;"><u>Figure 2:</u> Illustration of the machine translation problem.</h6>
 </div>
 
@@ -42,13 +42,13 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 <div class="container-fluid text-center mt-4 p-0">
   <div class="row m-0">
     <div class="col-12 col-sm-4 mb-3 mb-sm-0">
-      <img class="img-responsive" style="width: 100%;" src="{{ '/assets/img/projects/machine_translation/2_pairwise.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+      <img class="img-responsive" style="width: 100%;" src="{{ '/assets/img/projects/machine_translation/2_pairwise.svg' | prepend: site.baseurl }}" alt="overview figure">
     </div>
     <div class="col-12 col-sm-4 mb-3 mb-sm-0">
-      <img class="img-responsive" style="width: 100%;" src="{{ '/assets/img/projects/machine_translation/3_universal.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+      <img class="img-responsive" style="width: 100%;" src="{{ '/assets/img/projects/machine_translation/3_universal.svg' | prepend: site.baseurl }}" alt="overview figure">
     </div>
     <div class="col-12 col-sm-4 mb-1 mb-sm-0">
-      <img class="img-responsive" style="width: 100%;" src="{{ '/assets/img/projects/machine_translation/4_per_language.svg' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+      <img class="img-responsive" style="width: 100%;" src="{{ '/assets/img/projects/machine_translation/4_per_language.svg' | prepend: site.baseurl }}" alt="overview figure">
     </div>
   </div>
   <h6 class="font-italic text-center mt-2" style="color: #78909c;"><u>Figure 3:</u> Overview of existing approaches for multilingual neural machine translation.</h6>
@@ -235,7 +235,7 @@ During my PhD I worked on a couple of interesting projects related to machine tr
 </div>
 
 <div class="container-fluid text-center mt-4 p-0">
-  <img class="img-responsive col-12 col-sm-10 col-md-6 ml-auto mr-auto" src="{{ '/assets/img/projects/machine_translation/6_languages.png' | prepend: site.baseurl | prepend: site.url }}" alt="overview figure">
+  <img class="img-responsive col-12 col-sm-10 col-md-6 ml-auto mr-auto" src="{{ '/assets/img/projects/machine_translation/6_languages.png' | prepend: site.baseurl }}" alt="overview figure">
   <h6 class="font-italic text-center mt-2" style="color: #78909c;"><u>Figure 6:</u> <a href="http://cosine%20distance" target="_blank">Cosine distance</a> between all pairs of the language embeddings learned using our contextual parameter generator. Note that the cosine distance values can range between 0 and 2.</h6>
 </div>
 

@@ -4,8 +4,8 @@ layout: default
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb p-0 text-lowercase">
-    <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">home</a></li>
-    <li class="breadcrumb-item"><a href="{{ '/projects' | prepend: site.baseurl | prepend: site.url }}">projects</a></li>
+    <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}">home</a></li>
+    <li class="breadcrumb-item"><a href="{{ '/projects' | prepend: site.baseurl }}">projects</a></li>
     <li class="breadcrumb-item active">{{ page.title }}</li>
   </ol>
 </nav>
@@ -16,7 +16,7 @@ layout: default
     <h5 class="mb-4">{{ page.description }}</h5>
   </div>
   <!-- <div class="col-sm-2 p-0 mt-auto mb-auto">
-    <img src="{{ page.img | prepend: site.baseurl | prepend: site.url }}" alt="project thumbnail">
+    <img src="{{ page.img | prepend: site.baseurl }}" alt="project thumbnail">
   </div> -->
 </div>
 

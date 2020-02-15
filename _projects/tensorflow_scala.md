@@ -88,7 +88,7 @@ are a few useful links:
   If you now browse to `https://127.0.0.1:6006` while training, you can see the training progress:
   
   <div class="col">
-    <img src="{{ '/assets/img/tensorboard_mnist_example_plot.png' | prepend: site.baseurl | prepend: site.url }}" alt="tensorboard_mnist_example_plot" width="100%">
+    <img src="{{ '/assets/img/tensorboard_mnist_example_plot.png' | prepend: site.baseurl }}" alt="tensorboard_mnist_example_plot" width="100%">
   </div>
 
 - Low-level graph construction API, similar to that of the Python API, but strongly typed wherever possible:
@@ -127,13 +127,13 @@ Funding for the development of this library has been generously provided by the 
 <table class="table table-sm table-borderless">
   <tr>
     <td class="p-1 text-center align-middle" style="width: 30%;" >
-      <img class="img-responsive" style="width: 80%;" src="{{ '/assets/img/cmu_logo.svg' | prepend: site.baseurl | prepend: site.url }}" alt="cmu_logo">
+      <img class="img-responsive" style="width: 80%;" src="{{ '/assets/img/cmu_logo.svg' | prepend: site.baseurl }}" alt="cmu_logo">
     </td>
     <td class="p-1 text-center align-middle" style="width: 30%;" >
-      <img class="img-responsive" style="width: 80%;" src="{{ '/assets/img/nsf_logo.svg' | prepend: site.baseurl | prepend: site.url }}" alt="cmu_logo">
+      <img class="img-responsive" style="width: 80%;" src="{{ '/assets/img/nsf_logo.svg' | prepend: site.baseurl }}" alt="cmu_logo">
     </td>
     <td class="p-1 text-center align-middle" style="width: 30%;" >
-      <img class="img-responsive" style="width: 80%;" src="{{ '/assets/img/afosr_logo.gif' | prepend: site.baseurl | prepend: site.url }}" alt="cmu_logo">
+      <img class="img-responsive" style="width: 80%;" src="{{ '/assets/img/afosr_logo.gif' | prepend: site.baseurl }}" alt="cmu_logo">
     </td>
   </tr>
   <tr>
