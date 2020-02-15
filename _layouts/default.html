@@ -86,17 +86,17 @@
   </footer>
 
   <!-- Core JavaScript Files -->
-  <script src="{{ 'jquery.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ 'popper.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ 'bootstrap.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ 'mdb.min.js' | prepend: '/assets/js/' | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
+  <script src="{{ 'jquery.min.js' | prepend: '/assets/js/' | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script src="{{ 'popper.min.js' | prepend: '/assets/js/' | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script src="{{ 'bootstrap.min.js' | prepend: '/assets/js/' | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script src="{{ 'mdb.min.js' | prepend: '/assets/js/' | prepend: site.baseurl }}" type="text/javascript"></script>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
-  <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script src="{{ '/assets/js/common.js' | prepend: site.baseurl }}"></script>
 
   <!-- GitHub Stars -->
-  <script src="{{ '/assets/js/github-stars.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script src="{{ '/assets/js/github-stars.js' | prepend: site.baseurl }}"></script>
   <script type="text/javascript">
     {% for project in site.projects %}
       {% if project.github %}
