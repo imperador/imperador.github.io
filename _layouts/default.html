@@ -11,17 +11,17 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
 
   <!-- CSS Files -->
-  <link rel="stylesheet" href="{{ '/assets/css/all.min.css' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/all.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 </head>
 <body>
   <!-- Header -->
   <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
       {% if page.title != "about" %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">Anthony</span> Platanios</a>
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/"><span class="font-weight-bold">Anthony</span> Platanios</a>
       {% else %}
         <div class="row ml-1 ml-sm-0">
           <span class="contact-icon text-center" style="line-height: 1em;">
@@ -40,7 +40,7 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <li class="nav-item {% if page.title == "about" %}navbar-active font-weight-bold{% endif %}">
-            <a class="nav-link" href="{{ site.baseurl | prepend: site.url }}/">
+            <a class="nav-link" href="{{ site.baseurl }}/">
               about
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
@@ -50,7 +50,7 @@
           {% for p in site.pages %}
             {% if p.title and p.url != "/" %}
               <li class="nav-item {% if page.nav == p.nav %}navbar-active font-weight-bold{% endif %}">
-                  <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">
+                  <a class="nav-link" href="{{ p.url | prepend: site.baseurl }}">
                     {{ p.title }}
                     {% if page.nav == p.nav %}
                       <span class="sr-only">(current)</span>
@@ -158,7 +158,7 @@
 
   <!-- Code Syntax Highlighting -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  <script src="{{ '/assets/js/highlight.pack.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script src="{{ '/assets/js/highlight.pack.js' | prepend: site.baseurl }}"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
   <!-- Script Used for Randomizing the Projects Order -->
