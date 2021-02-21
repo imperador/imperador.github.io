@@ -10,8 +10,7 @@ description: Personal website of Cristoffer Leite.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # last_updated: true
 
-baseurl: '/'
-url: 'https://imperador.github.io'
+baseurl: 'leite.cf'
 
 # -----------------------------------------------------------------------------
 # Social Integration
