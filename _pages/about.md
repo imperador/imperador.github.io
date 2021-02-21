@@ -25,7 +25,7 @@ nav: about
 
   My research is focused on using Machine Learning for anomaly detection on Internet of Things devices, with a strong emphasis on healthcare and industrial scenarios. Other interesting research topics are: pentesting, incident response, threat inteligence and security for virtualised environments. During my PhD I am also working with <a href="{{ '/projects/' }}">multiple other projects</a>, such as <a href="https://www.project-sunrise.eu/">SunRISE</a> and <a href="https://intersct.nl/">INTERSCT</a>.<br/><br/>
 
-  I got both my Master's and Bachelor degrees at <a href="https://international.unb.br/" target="_blank">Universidade de Brasília</a>. And one of my papers produced there, Waste Flooding: Ferramenta de Retaliação de Phishing, was awarded in the <a href="https://sbseg2019.ime.usp.br/en/" target="_blank"> XIX Brazilian Symposium on Information and Computational Systems Security</a> for the best tool.
+  I got my Bachelor and Master's degrees at <a href="https://international.unb.br/" target="_blank">Universidade de Brasília</a>. During the latter, I received the award for the best tool in the <a href="https://sbseg2019.ime.usp.br/en/" target="_blank"> XIX Brazilian Symposium on Information and Computational Systems Security</a> with the paper <i>Waste Flooding: Ferramenta de Retaliação de Phishing</i>.
 </div>
 
 <!-- News 
