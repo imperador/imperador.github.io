@@ -78,6 +78,7 @@
       </div>
     
       <div class="col p-0">
+        <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#{{entry_id}}-bib" role="button" aria-expanded="false" aria-controls="{{entry_id}}-abstract">Bib</a>
         {% if entry.abstract %}
           <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#{{entry_id}}-abstract" role="button" aria-expanded="false" aria-controls="{{entry_id}}-abstract">Abstract</a>
         {% endif %}
@@ -109,7 +110,17 @@
           <a class="badge yellow waves-effect font-weight-light mr-1"> <span style="color:black;">⭐Award: {{ entry.award }}</span></a>
         {% endif %}
       </div>
-    
+      
+      {% if entry.abstract %}
+      <div class="col mt-2 p-0">
+        <div id="{{entry_id}}-bib" class="collapse">
+          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            <pre>{{ entry.bibtex }}</pre>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
       {% if entry.abstract %}
       <div class="col mt-2 p-0">
         <div id="{{entry_id}}-abstract" class="collapse">
