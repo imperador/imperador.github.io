@@ -105,6 +105,9 @@
         {% if entry.arxiv %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
         {% endif %}
+        {% if entry.award %}
+          <a class="badge yellow waves-effect font-weight-light mr-1"> <span style="color:black;">⭐Award: {{ entry.award }}</span></a>
+        {% endif %}
       </div>
     
       {% if entry.abstract %}

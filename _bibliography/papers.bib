@@ -1,221 +1,80 @@
 ---
 ---
 
-@inproceedings{Platanios:2020:jbw,
-  title         = {{Jeally Bean World: A Testbed for Never-Ending Learning}},
-  author        = {Emmanouil Antonios Platanios* and Abulhair Saparov* and Tom Mitchell},
-  booktitle     = {International Conference on Learning Representations},
-  abbr          = {ICLR},
-  url           = {https://openreview.net/forum?id=Byx_YAVYPH},
-  year          = {2020},
-  abstract      = {Machine learning has shown growing success in recent years. However, current machine learning systems are highly specialized, trained for particular problems or domains, and typically on a single narrow dataset. Human learning, on the other hand, is highly general and adaptable. Never-ending learning is a machine learning paradigm that aims to bridge this gap, with the goal of encouraging researchers to design machine learning systems that can learn to perform a wider variety of inter-related tasks in more complex environments. To date, there is no environment or testbed to facilitate the development and evaluation of never-ending learning systems. To this end, we propose the Jelly Bean World testbed. The Jelly Bean World allows experimentation over two-dimensional grid worlds which are filled with items and in which agents can navigate. This testbed provides environments that are sufficiently complex and where more generally intelligent algorithms ought to perform better than current state-of-the-art reinforcement learning approaches. It does so by producing non-stationary environments and facilitating experimentation with multi-task, multi-agent, multi-modal, and curriculum learning settings. We hope that this new freely-available software will prompt new research and interest in the development and evaluation of never-ending learning systems and more broadly, general intelligence systems.},
-  pdf           = {platanios-2020-jbw-paper.pdf},
-  code          = {https://github.com/eaplatanios/jelly-bean-world}
+  title         ={}, 
+  author        ={},
+  booktitle     ={},
+  abbr          ={},
+  year          ={},
+  url           ={},
+  abstract      ={},
+  html          ={},
+  pdf           ={},
+  supplementary ={},
+  addendum      ={},
+  poster        ={},
+  slides        ={},
+  code          ={},
+  arXiv         ={},
+  volume        ={},
+  number        ={},
+  pages         ={},
+  award         ={},
+  doi           ={}
+
+
+@inproceedings{Leite2020Framework5G,
+  title         ={A Framework for Performance Evaluation ofNetwork Function Virtualization in 5G Networks}, 
+  author        ={Cristoffer Leite and Priscila S. Barreto and Marcos F. Caetano and Rafael Almeida},
+  booktitle     ={2020 XLVI Latin American Computing Conference},
+  abbr          ={CLEI},
+  year          ={2020},
+  abstract      ={Fifth Generation of Mobile Communication (5G) integrates the use of telecommunication and computer systems. As virtualisation eases the deployment of new functionalities demanded by many industrial and social use cases, also show many research challenges regarding performance and resource optimisation. In the 5G architecture, while mobile networks are already trying to implement a full virtualisation of hardware resources, the core itself lacks of an integrated performance evaluation proposal. In this paper we propose a performance evaluation framework, based on an evaluation function and an assortment of distributed observation functions acting as monitors for compute nodes in a virtualised infrastructure.The framework, unlike previous proposals, is designed to be integrated into 5G as a native service. The framework was evaluated in a Ultra-Reliable and Low Latency Communications(URLLC) scenario and the results show success in monitoring and analysing a Network Function Virtualisation (NFV) environment with a standard 5G NFV implementation.}
 }
 
-@inproceedings{Platanios:2020:coper,
-  title         = {{Contextual Parameter Generation for Knowledge Graph Link Prediction}},
-  author        = {Emmanouil Antonios Platanios* and George Stoica* and Otilia Stretcu* and Barnab{\'a}s P{\'o}czos and Tom Mitchell},
-  booktitle     = {AAAI Conference on Artificial Intelligence},
-  abbr          = {AAAI},
-  year          = {2020},
-  abstract      = {We consider the task of knowledge graph link prediction. Given a question consisting of a source entity and a relation (e.g., Shakespeare and BornIn), the objective is to predict the most likely answer entity (e.g., England). Recent approaches tackle this problem by learning entity and relation embeddings. However, they often constrain the relationship between these embeddings to be additive (i.e., the embeddings are concatenated and then processed by a sequence of linear functions and element-wise non-linearities). We show that this type of interaction significantly limits representational power. For example, such models cannot handle cases where a different projection of the source entity is used for each relation. We propose to use contextual parameter generation to address this limitation. More specifically, we treat relations as the context in which source entities are processed to produce predictions, by using relation embeddings to generate the parameters of a model operating over source entity embeddings. This allows models to represent more complex interactions between entities and relations. We apply our method on two existing link prediction methods, including the current state-of-the-art, resulting in significant performance gains and establishing a new state-of-the-art for this task. These gains are achieved while also reducing training time by up to 28 times.},
-  pdf           = {platanios_2020_coper/paper.pdf},
-  code          = {https://github.com/otiliastr/coper}
+@inproceedings{Leite2020Proposta5G,
+  title         ={Uma Proposta para Avaliação da Virtualização de Funções de Rede em 5G}, 
+  author        ={Cristoffer Leite and Priscila S. Barreto and Marcos F. Caetano and Eduardo Alchieri and Rafael Almeida},
+  booktitle     ={XXV Workshop de Gerência e Operação de Redes e Serviços},
+  abbr          ={WGRS},
+  year          ={2020},
+  url           ={https://sol.sbc.org.br/index.php/wgrs/article/view/12466},
+  abstract      ={No 5G, a virtualização de componentes de rede é considerada uma das principais tecnologias que compoem a evolução da arquitetura para prover serviços flexíveis, organizados em fatias e de baixo custo. A abstração do hardware subjacente e suas vantagens em termos de custo e portabilidade motivam fortemente o uso de funções virtualizadas. Entretanto, o desenvolvimento desses ambientes para arquiteturas complexas e de varias camadas ainda é uma tarefa desafiadora, que requer um trabalho contínuo na definição de padrões e plataformas de teste para validação. Neste trabalho foi projetada, implementada e avaliada uma infraestrutura experimental de rede movel virtualizada que define duas funções de avaliação na arquitetura 5G. A proposta se diferencia de outros estudos ao trabalhar com funções integradas à arquitetura 5G que podem avaliar o trafego de controle dos recursos virtualizados. A proposta foi validada de forma bem sucedida em um cenario padrão do 5G, com resultados que permitem avaliar o comportamento do ambiente virtualizado e mostram o potencial da integração da proposta à arquitetura 5G como elemento de suporte à otimização da infraestrutura virtualizada.},
+  doi           ={10.5753/wgrs.2020.12466}
 }
 
-@inproceedings{Stretcu:2019,
-  title         = {{Graph Agreement Models for Semi-Supervised Learning}},
-  author        = {Otilia Stretcu and Krishnamurthy Viswanathan and Dana Movshovitz-Attias and Emmanouil Antonios Platanios and Sujith Ravi and Andrew Tomkins},
-  booktitle     = {Neural Information Processing Systems},
-  abbr          = {NeurIPS},
-  url           = {https://papers.nips.cc/paper/9076-graph-agreement-models-for-semi-supervised-learning},
-  year          = {2019},
-  abstract      = {Graph-based algorithms are among the most successful paradigms for solving semi-supervised learning tasks. Recent work on graph convolutional networks and neural graph learning methods has successfully combined the expressiveness of neural networks with graph structures. We propose a technique that, when applied to these methods, achieves state-of-the-art results on semi-supervised learning datasets. Traditional graph-based algorithms, such as label propagation, were designed with the underlying assumption that the label of a node can be imputed from that of the neighboring nodes. However, real-world graphs are either noisy or have edges that do not correspond to label agreement. To address this, we propose Graph Agreement Models (GAM), which introduces an auxiliary model that predicts the probability of two nodes sharing the same label as a learned function of their features. The agreement model is used when training a node classification model by encouraging agreement only for the pairs of nodes it deems likely to have the same label, thus guiding its parameters to better local optima. The classification and agreement models are trained jointly in a co-training fashion. Moreover, GAM can also be applied to any semi-supervised classification problem, by inducing a graph whenever one is not provided. We demonstrate that our method achieves a relative improvement of up to 72% for various node classification models, and obtains state-of-the-art results on multiple established datasets.},
-  pdf           = {stretcu_2019_gam/paper.pdf},
-  supp          = {stretcu_2019_gam/supplementary.pdf},
-  poster        = {stretcu_2019_gam/poster.pdf},
-  code          = {https://github.com/tensorflow/neural-structured-learning}
+@inproceedings{Leite2019Pentest,
+  title         ={Pentest on Internet of Things Devices}, 
+  author        ={Cristoffer Leite and João J. C. Gondim and Priscila S. Barreto and Marcos F. Caetano and Eduardo Alchieri},
+  booktitle     ={2019 XLV Latin American Computing Conference},
+  abbr          ={CLEI},
+  year          ={2019},
+  url           ={https://ieeexplore.ieee.org/abstract/document/9073985},
+  abstract      ={Internet of Things (IoT) is one of the key enabling technologies for an always-connected world and also a main enabler for generating information of interest in various application domains. A growing problem in recent years in this technology is security, as power-constrained devices that are typical of IoT applications may not always provide these implementations properly. These conditions can compromise entire environments and allow malicious agents to take control and perform malicious activities. In this article, we provide a summary of the principal vulnerabilities reported for IoT devices based on the OWASP Internet of Things Project, classified by test routine groups. Using models based on standard architectures to define and detail reproducible verification routines for each test, a selection of independent analyzes of each identified category was performed to ensure more comprehensive and accurate testing. Finally, the proposed routines are performed in a test environment to exemplify and ensure their operation, thus contributing to meeting the demand in the area for more accurate information and to assist in understanding the most common vulnerabilities},
+  code          ={https://github.com/imperador/ragnar},
+  doi           ={10.1109/CLEI47609.2019.235111}
 }
 
-@inproceedings{Platanios:2019,
-  title         = {{Competence-based Curriculum Learning for Neural Machine Translation}},
-  author        = {Emmanouil Antonios Platanios and Otilia Stretcu and Graham Neubig and Barnab{\'a}s P{\'o}czos and Tom Mitchell},
-  booktitle     = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
-  abbr          = {NAACL},
-  url           = {https://arxiv.org/pdf/1903.09848.pdf},
-  year          = {2019},
-  abstract      = {Current state-of-the-art NMT systems use large neural networks that are not only slow to train, but also often require many heuristics and optimization tricks, such as specialized learning rate schedules and large batch sizes. This is undesirable as it requires extensive hyperparameter tuning. In this paper, we propose a curriculum learning framework for NMT that reduces training time, reduces the need for specialized heuristics or large batch sizes, and results in overall better performance. Our framework consists of a principled way of deciding which training samples are shown to the model at different times during training, based on the estimated difficulty of a sample and the current competence of the model. Filtering training samples in this manner prevents the model from getting stuck in bad local optima, making it converge faster and reach a better solution than the common approach of uniformly sampling training examples. Furthermore, the proposed method can be easily applied to existing NMT models by simply modifying their input data pipelines. We show that our framework can help improve the training time and the performance of both recurrent neural network models and Transformers, achieving up to a 70% decrease in training time, while at the same time obtaining accuracy improvements of up to 2.2 BLEU.},
-  pdf           = {platanios_2019_curriculum_nmt/paper.pdf},
-  poster        = {platanios_2019_curriculum_nmt/poster.pdf},
-  slides        = {platanios_2019_curriculum_nmt/slides.pdf},
-  code          = {https://github.com/eaplatanios/symphony-mt}
+@inproceedings{Leite2019PhishingNCA,
+  title         ={Waste Flooding: A Phishing Retaliation Tool}, 
+  author        ={Cristoffer Leite and João J. C. Gondim and Priscila S. Barreto and Eduardo Alchieri},
+  booktitle     ={2019 IEEE 18th International Symposium on Network Computing and Applications},
+  abbr          ={NCA},
+  year          ={2019},
+  url           ={https://ieeexplore.ieee.org/document/8935018},
+  abstract      ={Phishing is a well known attack technique that is still a growing threat in the security area. The Internet popularity and the always connected users increased phishing possibilities by giving attackers new instruments and allowing closer contact to their focus. By applying social engineering methods, phishing thrives on misinformation and because of this, current main phishing response methods focus only on educating users or blocking phishing attempts, without any response to derail the already implemented attacks. These conditions may leave targeted users unprotected, as any leaked information can not be tracked to determine which person suffered from phishing and compromised data that can not be saved or easily detected. In this paper, we present, analyse and evaluate a new response tool that aims to furtively retaliate these attacks by automatic detecting phishing forms and using them to clutter phishing databases with useless information and conceal user data. The evaluation shows that the tool may be useful as a detectionresistant solution and gives a fair response to phishing attempts by flooding the phishing databases},
+  code          ={https://github.com/imperador/WasteFlooding},
+  doi           ={10.1109/NCA.2019.8935018}
 }
 
-@inproceedings{Platanios:2018,
-  title         = {{Contextual Parameter Generation for Universal Neural Machine Translation}},
-  author        = {Emmanouil Antonios Platanios and Mrinmaya Sachan and Graham Neubig and Tom Mitchell},
-  booktitle     = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  abbr          = {EMNLP},
-  address       = {Brussels, Belgium},
-  month         = {November},
-  url           = {https://arxiv.org/abs/1808.08493},
-  year          = {2018},
-  abstract      = {We propose a simple modification to existing neural machine translation (NMT) models that enables using a single universal model to translate between multiple languages while allowing for language specific parameterization, and that can also be used for domain adaptation. Our approach requires no changes to the model architecture of a standard NMT system, but instead introduces a new component, the contextual parameter generator (CPG), that generates the parameters of the system (e.g., weights in a neural network). This parameter generator accepts source and target language embeddings as input, and generates the parameters for the encoder and the decoder, respectively. The rest of the model remains unchanged and is shared across all languages. We show how this simple modification enables the system to use monolingual data for training and also perform zero-shot translation. We further show it is able to surpass state-of-the-art performance for both the IWSLT-15 and IWSLT-17 datasets and that the learned language embeddings are able to uncover interesting relationships between languages.},
-  pdf           = {platanios_2018_cpg_nmt/paper.pdf},
-  poster        = {platanios_2018_cpg_nmt/poster.pdf},
-  slides        = {platanios_2018_cpg_nmt/slides.pdf},
-  code          = {https://github.com/eaplatanios/symphony-mt}
-}
-
-@article{Mitchell:2018:cacm,
-  author        = {Mitchell, Tom M and Cohen, William W and Hruschka Jr, Estevam R and Pratim Talukdar, Partha and Yang, Bishan and Betteridge, Justin and Carlson, Andrew and Dalvi, Bhanava and Gardner, Matt and Kisiel, Bryan and Krishnamurthy, Jayant and Lao, Ni and Mazaitis, Kathryn and Mohamed, Thahir P and Nakashole, Ndapakula and Platanios, Emmanouil Antonios and Ritter, Alan and Samadi, Mehdi and Settles, Burr and Wang, Richard C and Wijaya, Derry and Gupta, Abhinav and Chen, Xinlei and Saparov, Abulhair and Greaves, Malcolm and Welling, Joel},
-  title         = {{Never-Ending Learning}},
-  journal       = {Communications of the ACM},
-  abbr          = {CACM},
-  issue_date    = {May 2018},
-  volume        = {61},
-  number        = {5},
-  month         = apr,
-  year          = {2018},
-  issn          = {0001-0782},
-  pages         = {103--115},
-  numpages      = {13},
-  url           = {http://doi.acm.org/10.1145/3191513},
-  doi           = {10.1145/3191513},
-  acmid         = {3191513},
-  publisher     = {ACM},
-  address       = {New York, NY, USA},
-  pdf           = {mitchell_2018_cacm/paper.pdf},
-  abstract      = {Whereas people learn many different types of knowledge from diverse experiences over many years, and become better learners over time, most current machine learning systems are much more narrow, learning just a single function or data model based on statistical analysis of a single data set. We suggest that people learn better than computers precisely because of this difference, and we suggest a key direction for machine learning research is to develop software architectures that enable intelligent agents to also learn many types of knowledge, continuously over many years, and to become better learners over time. In this paper we define more precisely this never-ending learning paradigm for machine learning, and we present one case study: the Never-Ending Language Learner (NELL), which achieves a number of the desired properties of a never-ending learner. NELL has been learning to read the Web 24hrs/day since January 2010, and so far has acquired a knowledge base with 120mn diverse, confidence-weighted beliefs (e.g., servedWith(tea,biscuits)), while learning thousands of interrelated functions that continually improve its reading competence over time. NELL has also learned to reason over its knowledge base to infer new beliefs it has not yet read from those it has, and NELL is inventing new relational predicates to extend the ontology it uses to represent beliefs. We describe the design of NELL, experimental results illustrating its behavior, and discuss both its successes and shortcomings as a case study in never-ending learning. NELL can be tracked online at http://rtw.ml.cmu.edu, and followed on Twitter at @CMUNELL.}
-}
-
-@eprint{Platanios:2018:agreement_based_learning,
-  author        = {Platanios, Emmanouil A},
-  title         = {{Agreement-based Learning}},
-  archivePrefix = "arXiv",
-  eprint        = {1806.01258},
-  primaryClass  = "cs.LG",
-  booktitle     = {arXiv},
-  abbr          = {arXiv},
-  year          = {2018},
-  pdf           = {platanios_2018_agreement_based_learning/paper.pdf},
-  abstract      = {{Model selection is a problem that has occupied machine learning researchers for a long time. Recently, its importance has become evident through applications in deep learning. We propose an agreement-based learning framework that prevents many of the pitfalls associated with model selection. It relies on coupling the training of multiple models by encouraging them to agree on their predictions while training. In contrast with other model selection and combination approaches used in machine learning, the proposed framework is inspired by human learning. We also propose a learning algorithm defined within this framework which manages to significantly outperform alternatives in practice, and whose performance improves further with the availability of unlabeled data. Finally, we describe a number of potential directions for developing more flexible agreement-based learning algorithms.}}
-}
-
-@eprint{Platanios:2018:deep_graphs,
-  author        = {Platanios, Emmanouil Antonios and Smola, Alex},
-  title         = {{Deep Graphs}},
-  archivePrefix = "arXiv",
-  eprint        = {1806.01235},
-  primaryClass  = "cs.LG",
-  booktitle     = {arXiv},
-  abbr          = {arXiv},
-  year          = {2018},
-  pdf           = {platanios_2018_deep_graphs/paper.pdf},
-  abstract      = {{We propose an algorithm for deep learning on networks and graphs. It relies on the notion that many graph algorithms, such as PageRank, Weisfeiler-Lehman, or Message Passing can be expressed as iterative vertex updates. Unlike previous methods which rely on the ingenuity of the designer, Deep Graphs are adaptive to the estimation problem. Training and deployment are both efficient, since the cost is O(|E|+|V|), where E and V are the sets of edges and vertices respectively. In short, we learn the recurrent update functions rather than positing their specific functional form. This yields an algorithm that achieves excellent accuracy on both graph labeling and regression tasks.}}
-}
-
-@eprint{Platanios:2017:active_learning,
-  author        = {Platanios, Emmanouil Antonios and Kapoor, Ashish and Horvitz, Eric},
-  title         = {{Active Learning amidst Logical Knowledge}},
-  archivePrefix = "arXiv",
-  eprint        = {1709.08850},
-  primaryClass  = "cs.AI",
-  booktitle     = {arXiv},
-  abbr          = {arXiv},
-  year          = {2017},
-  pdf           = {platanios_2017_active_learning/paper.pdf},
-  abstract      = {{Structured prediction is ubiquitous in applications of machine learning such as knowledge extraction and natural language processing. Structure often can be formulated in terms of logical constraints. We consider the question of how to perform efficient active learning in the presence of logical constraints among variables inferred by different classifiers. We propose several methods and provide theoretical results that demonstrate the inappropriateness of employing uncertainty guided sampling, a commonly used active learning method. Furthermore, experiments on ten different datasets demonstrate that the methods significantly outperform alternatives in practice. The results are of practical significance in situations where labeled data is scarce.}}
-}
-
-@inproceedings{Platanios:2017:accuracy_estimation_logic,
-  author        = {Platanios, Emmanouil Antonios and Poon, Hoifung and Horvitz, Eric and Mitchell, Tom M},
-  title         = {{Estimating Accuracy from Unlabeled Data: A Probabilistic Logic Approach}},
-  booktitle     = {Neural Information Processing Systems},
-  abbr          = {NeurIPS},
-  year          = {2017},
-  arxiv         = {1705.07086},
-  pdf           = {platanios_2017_logic/paper.pdf},
-  supp          = {platanios_2017_logic/supplementary.pdf},
-  poster        = {platanios_2017_logic/poster.pdf},
-  abstract      = {{We propose an efﬁcient method to estimate the accuracy of classiﬁers using only unlabeled data. We consider a setting with multiple classiﬁcation problems where the target classes may be tied together through logical constraints. For example, a set of classes may be mutually exclusive, meaning that a data instance can belong to at most one of them. The proposed method is based on the intuition that: (i) when classiﬁers agree, they are more likely to be correct, and (ii) when the classiﬁers make a prediction that violates the constraints, at least one classiﬁer must be making an error. Experiments on four real-world data sets produce accuracy estimates within a few percent of the true accuracy, using solely unlabeled data. Our models also outperform existing state-of-the-art solutions in both estimating accuracies, and combining multiple classiﬁer outputs. The results emphasize the utility of logical constraints in estimating accuracy, thus validating our intuition.}}
-}
-
-@inproceedings{Platanios:2016ti,
-  author        = {Platanios, Emmanouil Antonios and Dubey, Avinava and Mitchell, Tom M},
-  title         = {{Estimating Accuracy from Unlabeled Data: A Bayesian Approach}},
-  booktitle     = {International Conference in Machine Learning},
-  abbr          = {ICML},
-  year          = {2016},
-  pages         = {1416-1425},
-  pdf           = {platanios_2016ti/platanios_2016ti.pdf},
-  supp          = {platanios_2016ti/platanios_2016ti_supp.pdf},
-  poster        = {platanios_2016ti/platanios_2016ti_poster.pdf},
-  slides        = {platanios_2016ti/platanios_2016ti_slides.pdf},
-  abstract      = {{We consider the question of how unlabeled data can be used to estimate the true accuracy of learned classifiers, and the related question of how outputs from several classifiers performing the same task can be combined based on their estimated accuracies. To answer these questions, we first present a simple graphical model that performs well in practice. We then provide two nonparametric extensions to it that improve its performance. Experiments on two real-world data sets produce accuracy estimates within a few percent of the true accuracy, using solely unlabeled data. Our models also outperform existing state-of-the-art solutions in both estimating accuracies, and combining multiple classifier outputs.}}
-}
-
-@inproceedings{Mitchell:2015wo,
-  author        = {Mitchell, Tom M and Cohen, William W and Hruschka Jr, Estevam R and Pratim Talukdar, Partha and Betteridge, Justin and Carlson, Andrew and Dalvi, Bhanava and Gardner, Matt and Kisiel, Bryan and Krishnamurthy, Jayant and Lao, Ni and Mazaitis, Kathryn and Mohamed, Thahir P and Nakashole, Ndapakula and Platanios, Emmanouil Antonios and Ritter, Alan and Samadi, Mehdi and Settles, Burr and Wang, Richard C and Wijaya, Derry and Gupta, Abhinav and Chen, Xinlei and Saparov, Abulhair and Greaves, Malcolm and Welling, Joel},
-  title         = {{Never-Ending Learning}},
-  booktitle     = {Association for the Advancement of Artificial Intelligence},
-  abbr          = {AAAI},
-  year          = {2015},
-  pages         = {1--9},
-  pdf           = {mitchell_2015wo/mitchell_2015wo.pdf},
-  abstract      = {Whereas people learn many different types of knowledge from diverse experiences over many years, most current machine learning systems acquire just a single function or data model from just a single data set. We propose a neverending learning paradigm for machine learning, to better reflect the more ambitious and encompassing type of learning performed by humans. As a case study, we describe the Never-Ending Language Learner (NELL), which achieves some of the desired properties of a never-ending learner, and we discuss lessons learned. NELL has been learning to read the web 24 hours/day since January 2010, and so far has acquired a knowledge base with over 80 million confidenceweighted beliefs (e.g., servedWith(tea, biscuits)). NELL has also learned millions of features and parameters that enable it to read these beliefs from the web. Additionally, it has learned to reason over these beliefs to infer new beliefs, and is able to extend its ontology by synthesizing new relational predicates. NELL can be tracked online at http://rtw.ml.cmu.edu, and followed on Twitter at @CMUNELL.}
-}
-
-@thesis{Platanios:2015ui,
-  author        = {Platanios, Emmanouil A},
-  title         = {{Estimating Accuracy from Unlabeled Data}},
-  booktitle     = {Master's Thesis at Carnegie Mellon University},
-  abbr          = {CMU},
-  year          = {2015},
-  pages         = {1--28},
-  pdf           = {platanios_2015ui/platanios_2015ui.pdf}, 
-  poster        = {platanios_2015ui/platanios_2015ui_poster.pdf}, 
-  abstract      = {We consider the question of how unlabeled data can be used to estimate the true accuracy of learned classiﬁers. This is an important question for any autonomous learning system that must estimate its accuracy without supervision, and also when classiﬁers trained from one data distribution must be applied to a new distribution (e.g., document classiﬁers trained on one text corpus are to be applied to a second corpus). We ﬁrst show how to estimate error rates exactly from unlabeled data when given a collection of competing classiﬁers that make independent errors, based on the agreement rates between subsets of these classiﬁers. We further show that even when the competing classiﬁers do not make independent errors, both their accuracies and error dependencies can be estimated by making certain relaxed assumptions. We then present an alternative approach based on graphical models that also allows us to combine the outputs of the classiﬁers into a single output label. A simple graphical model is introduced that performs well in practice. Then, two nonparametric extensions to it are presented, that signiﬁcantly improve its performance. Experiments on two real-world data sets produce accuracy estimates within a few percent of the true accuracy, using solely unlabeled data. We also obtain results demonstrating our graphical model approaches beating alternative methods for combining the classiﬁers’ outputs. These results are of practical signiﬁcance in situations where labeled data is scarce and shed light on the more general question of how the consistency among multiple functions is related to their true accuracies.}
-}
-
-@inproceedings{Platanios:2014ti,
-  author        = {Platanios, Emmanouil Antonios and Blum, Avrim and Mitchell, Tom M},
-  title         = {{Estimating Accuracy from Unlabeled Data}},
-  booktitle     = {Conference on Uncertainty in Artificial Intelligence},
-  abbr          = {UAI},
-  year          = {2014},
-  pages         = {1--10},
-  pdf           = {platanios_2014ti/platanios_2014ti.pdf},
-  poster        = {platanios_2014ti/platanios_2014ti_poster.pdf},
-  addendum      = {platanios_2014ti/platanios_2014ti_addendum.pdf},
-  abstract      = {We consider the question of how unlabeled data can be used to estimate the true accuracy of learned classifiers. This is an important question for any autonomous learning system that must estimate its accuracy without supervision, and also when classifiers trained from one data distribution must be applied to a new distribution (e.g., document classifiers trained on one text corpus are to be applied to a second corpus). We first show how to estimate error rates exactly from unlabeled data when given a collection of competing classifiers that make independent errors, based on the agreement rates between subsets of these classifiers. We further show that even when the competing classifiers do not make independent errors, both their accuracies and error dependencies can be estimated by making certain relaxed assumptions. Experiments on two data real-world data sets produce estimates within a few percent of the true accuracy, using solely unlabeled data. These results are of practical significance in situations where labeled data is scarce and shed light on the more general question of how the consistency among multiple functions is related to their true accuracies.}
-}
-
-@article{Platanios:2014gp,
-  author        = {Platanios, Emmanouil Antonios and Chatzis, Sotirios P},
-  title         = {{Gaussian Process-Mixture Conditional Heteroscedasticity}},
-  journal       = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  abbr          = {PAMI}, 
-  year          = {2014},
-  volume        = {36},
-  number        = {5},
-  pages         = {888--900},
-  month         = may, 
-  pdf           = {platanios_2014gp/platanios_2014gp.pdf}, 
-  abstract      = {Generalized autoregressive conditional heteroscedasticity (GARCH) models have long been considered as one of the most successful families of approaches for volatility modeling in ﬁnancial return series. In this paper, we propose an alternative approach based on methodologies widely used in the ﬁeld of statistical machine learning. Speciﬁcally, we propose a novel nonparametric Bayesian mixture of Gaussian process regression models, each component of which models the noise variance process that contaminates the observed data as a separate latent Gaussian process driven by the observed data. This way, we essentially obtain a Gaussian process-mixture conditional heteroscedasticity (GPMCH) model for volatility modeling in ﬁnancial return series. We impose a nonparametric prior with power-law nature over the distribution of the model mixture components, namely the Pitman-Yor process prior, to allow for better capturing modeled data distributions with heavy tails and skewness. Finally, we provide a copula-based approach for obtaining a predictive posterior for the covariances over the asset returns modeled by means of a postulated GPMCH model. We evaluate the efﬁcacy of our approach in a number of benchmark scenarios, and compare its performance to state-of-the-art methodologies.}
-}
-
-@inproceedings{Platanios:2012uh,
-  author        = {Platanios, Emmanouil Antonios and Chatzis, Sotirios P},
-  title         = {{Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes for Volatility Modeling}},
-  booktitle     = {Neural Information Processing Systems Workshop on Modern Nonparametric Methods in Machine Learning},
-  abbr          = {NeurIPS}, 
-  year          = {2012},
-  organization  = {Department of Electrical and Electronic Engineering, Imperial College London, London, United Kingdom; Department of Electrical and Computer Engineering, and Informatics, Cyprus University of Technology, Cyprus},
-  address       = {Lake Tahoe, NV, United States of America},
-  month         = dec,
-  pdf           = {platanios_2012uh/platanios_2012uh.pdf}, 
-  poster        = {platanios_2012uh/platanios_2012uh_poster.pdf}, 
-  abstract      = {In this work, we present a nonparametric Bayesian method for multivariate volatility modeling. Our approach is based on postulation of a novel mixture of multioutput heteroscedastic Gaussian processes to model the covariance matrices of multiple assets. Speciﬁcally, we use the Pitman-Yor process prior as the non- parametric prior imposed over the components of our model, which are taken as multioutput heteroscedastic Gaussian processes obtained by introducing appropriate convolution kernels that combine simple heteroscedastic Gaussian processes under a multioutput scheme. We exhibit the efﬁcacy of our approach in a volatility prediction task.}
+@inproceedings{Leite2019PhishingSBSEG,
+  title         ={Waste Flooding: Ferramenta de Retaliação de Phishing}, 
+  author        ={Cristoffer Leite and João J. C. Gondim and Priscila S. Barreto and Eduardo Alchieri},
+  booktitle     ={XIX Brazilian Symposium on Information and Computational Systems Security},
+  abbr          ={SBSeg},
+  year          ={2019},
+  url           ={https://www.researchgate.net/publication/337679980_Waste_Flooding_Ferramenta_para_Retaliacao_de_Phishing},
+  abstract      ={No 5G, a virtualização de componentes de rede é considerada uma das principais tecnologias que compõem a evolução da arquitetura para prover serviços flexíveis, organizados em fatias e de baixo custo. A abstração do hardware subjacente e suas vantagens em termos de custo e portabilidade motivam fortemente o uso de funções virtualizadas. Entretanto, o desenvolvimento desses ambientes para arquiteturas complexas e de várias camadas ainda é uma tarefa desafiadora, que requer um trabalho contínuo na definição de padrões e plataformas de teste para validação. Neste trabalho foi projetada, implementada e avaliada uma infraestrutura experimental de rede móvel virtualizada que define duas funções de avaliação na arquitetura 5G. A proposta se diferencia de outros estudos ao trabalhar com funções integradas à arquitetura 5G que podem avaliar o tráfego de controle dos recursos virtualizados. A proposta foi validada de forma bem sucedida em um cenário padrão do 5G, com resultados  que permitem avaliar o comportamento do ambiente virtualizado e mostram o potencial da integração da proposta à arquitetura 5G como elemento de suporte à otimização da infraestrutura virtualizada.},
+  code          ={https://github.com/imperador/WasteFlooding},
+  award         ={Best Tool}
 }
