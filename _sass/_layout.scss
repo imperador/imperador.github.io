@@ -98,6 +98,16 @@ progress {
   }
 }
 
+.whitep {
+  .date {
+    width: 85px;
+  }
+
+  .text p, .text a {
+    padding-left: .2em;
+  }
+}
+
 /* Projects */
 
 @mixin project-icon {
