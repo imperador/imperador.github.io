@@ -6,27 +6,26 @@ nav: teaching
 description: classes, workshops, and teaching material
 ---
 
-<h3 class="mt-4">carnegie mellon university</h3>
+<!-- To add
+<h3 class="mt-4"><a target="_blank" href="https://tue.nl/"><img src="http://www.sps.tue.nl/ils/img/tue-logo.png" width="35"></a> Eindhoven University of Technology</h3>
+-->
+<h3 class="mt-4"><a target="_blank" href="https://international.unb.br/"><img src="https://i1.wp.com/fac.unb.br/wp-content/uploads/2020/05/Webysther_20160322_-_Logo_UnB_sem_texto.svg_.png?fit=1200%2C600&w=35"></a> University of Brasília</h3>
 
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="font-weight-bold">Introduction to Machine Learning</h5>
+        <h5 class="font-weight-bold"><a target="_blank" href="https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=204331">Network Management and Security</a></h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
         <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
-            10-701
+            204331
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Spring 2016: Guest Lecturer / Teaching Assistant</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">2019: Teaching Fellow</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level introduction to machine learning course taught by <a href="http://www.cs.cmu.edu/~tom">Tom Mitchell</a>.</li>
-      <li class="list-group-item">— Lecture on gaussian mixture models (GMM): <a href="/assets/pdf/teaching/gmm_lecture.pdf">slides</a> and <a href="/assets/pdf/teaching/gmm_lecture_code.zip">code</a></li>
-      <li class="list-group-item">— Lecture on co-training and accuracy estimation using unlabeled data: <a href="/assets/pdf/teaching/cotraining_and_accuracy_estimation_lecture.pdf">slides</a></li>
-      <li class="list-group-item">— Lecture reviewing graphical models basics: <a href="/assets/pdf/teaching/graphical_models_review_lecture.pdf">slides</a></li>
-      <li class="list-group-item">— <a href="/assets/pdf/teaching/logistic_regression_and_convex_optimization.pdf">Recitation notes</a> on logistic regression and convex optimization</li>
+      <li class="list-group-item">Graduate-level classes about network management and security protocols taught by dr. <a target="_blank" href="http://pesquisar.unb.br/professores/view/5019">João J. C. Gondim</a>.</li>
     </ul>
   </div>
 </div>
@@ -35,27 +34,36 @@ description: classes, workshops, and teaching material
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="font-weight-bold">Introduction to Machine Learning</h5>
+        <h5 class="font-weight-bold"><a target="_blank" href="https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=116572">Computer Networks</a></h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
         <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
-            10-701
+            116572
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Fall 2014: Teaching Assistant</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">2018: Teaching Fellow</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level introduction to machine learning course taught by <a href="http://www.cs.cmu.edu/~ggordon">Geoff Gordon</a> and <a href="http://www.cs.cmu.edu/~aarti">Aarti Singh</a>.</li>
-      <li class="list-group-item">— Lecture on co-training and accuracy estimation using unlabeled data: </li>
-      <li class="list-group-item">— Lecture reviewing graphical models basics: <a href="/assets/pdf/teaching/graphical_models_review_lecture.pdf">slides</a></li>
-      <li class="list-group-item">— Introductory recitation on convexity and gradient descent: <a href="https://www.youtube.com/watch?v=eRYQN4Hty0w">video</a></li>
-      <li class="list-group-item">— <a href="/assets/pdf/teaching/some_derivations_involving_matrix_calculus_recitation.pdf">Recitation notes</a> on some derivations involving matrix calculus</li>
+      <li class="list-group-item">Graduate-level introduction to computer networks course taught by dr. <a target="_blank" href="https://cic.unb.br/~pris/">Priscila A. S. M. Barreto</a>.</li>
     </ul>
   </div>
 </div>
 
-<h3 class="mt-4">random stuff</h3>
-
-<div class="col">
-  <a href="/assets/pdf/teaching/writing_python_libraries.pdf">Some notes</a> on writing Python libraries.
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold"><a target="_blank" href="https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=117536">Design and Analysis of Algorithms</a></h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+            117536
+        </span>
+      </div>
+    </div>
+    <h6 class="font-italic mt-2 mt-sm-0">2017: Undergradute Teaching Assistant</h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">Graduate-level course taught by dr. <a target="_blank" href="http://pesquisar.unb.br/professores/view/4886">Jan Mendonça Correa</a>.</li>
+    </ul>
+  </div>
 </div>
