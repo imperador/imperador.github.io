@@ -7,7 +7,7 @@ description: classes, workshops, and teaching material
 ---
 
 
-<h3 class="mt-4"><a target="_blank" href="https://tue.nl/"><img src="http://www.sps.tue.nl/ils/img/tue-logo.png" width="35"></a> Eindhoven University of Technology</h3>
+<h3 class="mt-4"><a target="_blank" href="https://tue.nl/"><img src="{{ 'tue-logo.png' | prepend: '/assets/img/logos/' | prepend: site.baseurl }}" width="35"></a> Eindhoven University of Technology</h3>
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
