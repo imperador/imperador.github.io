@@ -10,6 +10,9 @@ COINS:
 NCA:
   url: http://www.ieee-nca.org/
 
+NordSec:
+  url: http://www.nordsec.org/
+
 SBSeg:
   url: http://sbseg.sbc.org.br/
 

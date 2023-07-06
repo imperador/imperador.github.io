@@ -1,0 +1,24 @@
+- title: <a target="_blank" href="https://tue.nl/"><img src="/assets/img/logos/tue-logo.png" width="35" /></a> Eindhoven University of Technology
+  courses:
+    - coursename: <a target="_blank" href="https://canvas.tue.nl/courses/15035">Seminar - Information Security Technology</a>
+      coursenumber: 2IMS00
+      teaching: "2021, 2022, 2023: Teaching Fellow"
+      description: Master's-level seminar about network security ministered by dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/boris-skoric/">Boris Škorić</a> and dr <a target="_blank" href="https://www.tue.nl/en/research/researchers/nicola-zannone/">Nicola Zannone</a>.
+    - coursename: <a target="_blank" href="https://canvas.tue.nl/courses/14788">Computer Networks and Security</a>
+      coursenumber: 2IC60
+      teaching: "2020, 2022, 2023: Teaching Fellow"
+      description: Graduate-level classes about computer networks and security taught by dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/tanir-ozcelebi/">Tanir Ozcelebi</a> and dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/jerry-den-hartog/">Jerry I. den Hartog</a>.
+- title: <a target="_blank" href="https://international.unb.br/"><img src="https://i1.wp.com/fac.unb.br/wp-content/uploads/2020/05/Webysther_20160322_-_Logo_UnB_sem_texto.svg_.png?fit=1200%2C600&w=35" width="35" /></a> University of Brasília
+  courses:
+    - coursename: <a target="_blank" href="https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=204331">Network Management and Security</a>
+      coursenumber: 204331
+      teaching: "2019: Teaching Fellow"
+      description: Graduate-level classes about network management and security protocols taught by dr. <a target="_blank" href="http://pesquisar.unb.br/professores/view/5019">João J. C. Gondim</a>.
+    - coursename: <a target="_blank" href="https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=116572">Computer Networks</a>
+      coursenumber: 116572
+      teaching: "2018: Teaching Fellow"
+      description: Graduate-level introduction to computer networks course taught by dr. <a target="_blank" href="https://cic.unb.br/~pris/">Priscila A. S. M. Barreto</a>.
+    - coursename: <a target="_blank" href="https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=117536">Design and Analysis of Algorithms</a>
+      coursenumber: 117536
+      teaching: "2017: Undergradute Teaching Assistant"
+      description: Graduate-level course taught by dr. <a target="_blank" href="http://pesquisar.unb.br/professores/view/4886">Jan Mendonça Correa</a>.

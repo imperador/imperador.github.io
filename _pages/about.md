@@ -23,8 +23,8 @@ nav: about
 <div class="col text-justify p-0">
   I am a Researcher PhD student in the <a href="https://security1.win.tue.nl/doku.php" target="_blank">Security Group (SEC)</a> at <a href="https://tue.nl/" target="_blank">Eindhoven University of Technology</a> under the supervision of dr. <a href="https://www.tue.nl/en/research/researchers/jerry-den-hartog/" target="_blank">Jerry I. den Hartog</a>, and I also work as an IT Researcher Intern at <a href="https://www.forescout.com/" target="_blank">Forescout Technologies</a>.<br/><br/>
 
-  My research is focused on using Machine Learning for anomaly detection on Internet of Things devices, with a strong emphasis on healthcare and industrial scenarios. Other interesting research topics are: pentesting, incident response, threat inteligence and security for virtualised environments. During my PhD I am also working with <a href="{{ '/projects/' }}">multiple other projects</a>, such as <a href="https://www.project-sunrise.eu/">SunRISE</a> and <a href="https://intersct.nl/">INTERSCT</a>.<br/><br/>
-
+  My research is focused on Collaborative Anomaly Detection, with a strong emphasis on privacy for Internet of Things (IoT), healthcare and industrial scenarios. Other interesting research topics are: pentesting, incident response, threat inteligence, machine learning, and security for virtualised/containerised environments. During my PhD I am also working with <a href="{{ '/projects/' }}">multiple other projects</a>, such as the EU-funded <a href="https://www.project-sunrise.eu/">SunRISE</a> and the Dutch National <a href="https://intersct.nl/">INTERSCT</a>.<br/><br/>
+  
   I got my Bachelor and Master's degrees at <a href="https://international.unb.br/" target="_blank">Universidade de Brasília</a>. During the latter, I received the award for the best tool in the <a href="https://sbseg2019.ime.usp.br/en/" target="_blank"> XIX Brazilian Symposium on Information and Computational Systems Security</a> with the paper <i>Waste Flooding: Ferramenta de Retaliação de Phishing</i>.
 </div>
 
