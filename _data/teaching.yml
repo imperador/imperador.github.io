@@ -1,3 +1,13 @@
+- title: <a target="_blank" href="https://jads.nl/"><img src="/assets/img/logos/jads-logo.png" width="35" /></a> Jheronimus Academy of Data Science
+  courses:
+    - coursename: <a target="_blank" href="https://www.jads.nl/education/master-data-science-business-entrepreneurship/study-program/">Cybersecurity</a>
+      coursenumber: JM2030
+      teaching: "2025: Teacher"
+      description: Master's-level course about computer security.
+    - coursename: <a target="_blank" href="https://uvt.osiris-student.nl/onderwijscatalogus/extern/wizard/exam:20710:ople:1200">Data Structures and Algorithms</a>
+      coursenumber: JBP031
+      teaching: "2025: Teacher"
+      description: Pre-Master's-level course about creating, selecting and reasoning over efficient algorithms and data structures.
 - title: <a target="_blank" href="https://tue.nl/"><img src="/assets/img/logos/tue-logo.png" width="35" /></a> Eindhoven University of Technology
   courses:
     - coursename: <a target="_blank" href="https://canvas.tue.nl/courses/15035">Seminar - Information Security Technology</a>
@@ -8,7 +18,7 @@
       coursenumber: 2IC60
       teaching: "2020, 2022, 2023: Teaching Fellow"
       description: Graduate-level classes about computer networks and security taught by dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/tanir-ozcelebi/">Tanir Ozcelebi</a> and dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/jerry-den-hartog/">Jerry I. den Hartog</a>.
-- title: <a target="_blank" href="https://international.unb.br/"><img src="https://i1.wp.com/fac.unb.br/wp-content/uploads/2020/05/Webysther_20160322_-_Logo_UnB_sem_texto.svg_.png?fit=1200%2C600&w=35" width="35" /></a> University of Brasília
+- title: <a target="_blank" href="https://international.unb.br/"><img src="/assets/img/logos/unb-logo.png" width="35" /></a> University of Brasília
   courses:
     - coursename: <a target="_blank" href="https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=204331">Network Management and Security</a>
       coursenumber: 204331

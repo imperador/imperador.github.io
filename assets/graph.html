@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+    Based on https://github.com/pfalcon/wdot/
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    Legend: A→B means A was supervised by B
+    <script src="/assets/js/viz-lite.js"></script>
+    <script>
+    var url = window.location.href;
+    var i = url.indexOf("?");
+
+    url = "/assets/graphI.dot";//url.substring(i + 1);
+    var request = new XMLHttpRequest();
+    request.addEventListener("load", function() {
+    document.body.innerHTML += Viz(this.responseText, { format: "svg" }); // document.body.appendChild
+    });
+    request.open("GET", url);
+    request.send();
+
+    </script>
+  </body>
+</html>
